@@ -95,7 +95,7 @@
       .article
          margin: .4rem 0px 1.1rem
          +display(block)
-
+            
          .img
             +display(none)
 
@@ -140,9 +140,10 @@
             +clearfix()
          
             .img
-               width: 125px
+               +size(125px 80px)
                float: left
                +display(block)
+               overflow: hidden
 
                img
                   width: 100%
@@ -169,6 +170,9 @@
       .article-list
          .article
             width: 365px
+            
+            .img
+               height: 80px
             
             .text
                width: 240px
