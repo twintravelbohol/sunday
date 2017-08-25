@@ -23,7 +23,7 @@ title: Editorial
                   <a class='title' href='{{ site.url }}{{ post.url }}'>{{ post.title }}</a>
                   <div class='extra'>
                      <a class='cat' href='{{ site.url }}/{{ post.category }}'>{{ post.category | replace: '-', ' ' }}</a>
-                     <span class='author'>{{ post.author }}</span>
+                     <span class='author'>{{ site.data.settings.title }}</span>
                      <span class='date'>{{ post.date | date: "%B %-d, %Y" }}</span>
                   </div>
                   <p class='description'>{{ post.content | truncatewords:13 | remove: "<p>" | remove: "</p>" }}</p>

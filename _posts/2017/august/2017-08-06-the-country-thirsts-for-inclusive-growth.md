@@ -2,7 +2,6 @@
 layout: post
 title: The country thirsts for inclusive growth
 category: editorial
-author: Sunday News
 ---
 
 WE HAVE LITTLE DOUBT  that the Philippines will still exhibit dragon-like economic growth next to China -as Asia’s best.

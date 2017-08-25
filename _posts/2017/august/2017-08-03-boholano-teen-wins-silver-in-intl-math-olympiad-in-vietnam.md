@@ -2,7 +2,6 @@
 layout: post
 title: Boholano teen wins silver in int’l math olympiad in Vietnam
 category: front-page
-author: Sunday News
 ---
 
 A Boholano Grade 11 student bagged a silver medal in the recently concluded World Mathematics Invitational Finals at Ton Duc Thang University in Ho Chi Minh City, Vietnam.

@@ -2,7 +2,6 @@
 layout: post
 title: Bohol cited as model in open gov’t
 category: major-events
-author: Sunday News
 ---
 
 Bohol has been chosen a model province in Open Government Partnership (OGP), a global initiative now having 75 signatory countries towards transparency, empowered citizenry and strong governance.

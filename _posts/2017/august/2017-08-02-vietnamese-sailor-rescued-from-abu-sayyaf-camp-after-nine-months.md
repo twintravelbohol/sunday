@@ -2,7 +2,6 @@
 layout: post
 title: Vietnamese sailor rescued from Abu Sayyaf camp after nine months
 category: headlines
-author: Sunday News
 ---
 
 MANILA (Reuters) – Government troops raided an Islamist militants’ camp on a remote southern island and rescued a Vietnamese sailor held captive for nine months, a navy spokeswoman said on Monday.
