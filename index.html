@@ -1,40 +1,18 @@
 ---
 layout: default
-title: Sunday News
+title: Bohol Sunday News
 ---
 
 <section class='headlines'>
    <section class='headlines-container'>
-      <article class='article'>
+      {% for post in site.posts limit:5 %}
+      <a class='article' href='{{ post.url }}'>
          <figure class='img'>
-            <img src='/assets/img/post1.jpg'>
+            <img src="/assets/img/{{ post.title | replace: ' ', '-' | downcase }}.jpg">
          </figure>
-         <h2 class='title'>Women discover what fashion mistake not to make in 2017</h2>
-      </article>
-      <article class='article'>
-         <figure class='img'>
-            <img src='/assets/img/post1.jpg'>
-         </figure>
-         <h2 class='title'>Women discover what fashion mistake not to make in 2017</h2>
-      </article>
-      <article class='article'>
-         <figure class='img'>
-            <img src='/assets/img/post1.jpg'>
-         </figure>
-         <h2 class='title'>Women discover what fashion mistake not to make in 2017</h2>
-      </article>
-      <article class='article'>
-         <figure class='img'>
-            <img src='/assets/img/post1.jpg'>
-         </figure>
-         <h2 class='title'>Women discover what fashion mistake not to make in 2017</h2>
-      </article>
-      <article class='article'>
-         <figure class='img'>
-            <img src='/assets/img/post1.jpg'>
-         </figure>
-         <h2 class='title'>Women discover what fashion mistake not to make in 2017</h2>
-      </article>
+         <h2 class='title'>{{ post.title }}</h2>
+      </a>
+      {% endfor %}
    </section>
 </section>
 

@@ -16,6 +16,11 @@ layout: default
       <div class='post-body'>
          <div class='post-content'>
             {% include social-share.html %}
+            
+            <figure class='img'>
+               <img src="/assets/img/{{ page.title | downcase | replace: ' ', '-' }}.jpg">
+            </figure>
+            
             {{ content }}
             {% include social-share.html social-post='social-bottom' %}
             
