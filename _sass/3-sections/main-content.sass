@@ -1,0 +1,28 @@
+.main-content
+   
+   &.cat-content
+      .cat-content-container
+         .cat-header
+            
+   .main-content-container
+      @extend .container
+      background-color: white
+      padding-top: 1rem
+      padding-bottom: 1rem
+      +clearfix()
+      
+      .box-title
+         border-bottom-color: black
+         
+      .sidebar
+         width: 327px
+         float: right
+         
+         
+@media screen and (min-width: 992px)
+   .main-content
+      .main-content-container
+         +clearfix()
+      
+         > section h4
+            margin-top: 0px            

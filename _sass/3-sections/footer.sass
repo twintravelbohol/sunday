@@ -1,0 +1,89 @@
+.site-footer
+   background-color: black
+   
+   .footer-container
+      @extend .container
+      padding-bottom: 0px
+      
+      p, span
+         color: white
+         
+      a
+         color: $color-alt
+         
+      h5
+         color: white
+         +display(inline-block)
+         text-transform: uppercase
+         border-bottom: 2px solid white
+         
+      .lower-footer
+         background-color: $color-alt
+         padding: .8rem 1rem
+         +clearfix()
+         margin-top: 2rem
+            
+         *
+            text-transform: uppercase
+            color: black
+            
+         .copyright
+            @extend .small
+         
+         .nav            
+            float: right
+            
+            .nav-menu
+               @extend .nav-menu-item
+               
+               .menu-item
+                  @extend .small
+                  margin-right: .7rem
+                  
+                  &:last-of-type
+                     margin-right: 0px
+         
+      .upper-footer         
+         .about
+            margin-bottom: 2rem
+            text-align: center
+
+            .img
+               margin-bottom: 1rem 
+               
+               img
+                  width: 365px
+                  
+            .desc
+               margin: 0px auto 1rem
+               max-width: 768px
+
+@media screen and (min-width: 650px)
+   .site-footer
+      .footer-container
+         .lower-footer
+            .copyright
+               float: left   
+                           
+@media screen and (min-width: 768px)
+   .site-footer
+      .footer-container
+         .upper-footer         
+            .about
+               margin-bottom: 2rem
+
+                           
+@media screen and (min-width: 1200px)
+   .site-footer
+      .footer-container
+         .upper-footer
+            +clearfix()
+
+            .about
+               margin-bottom: 1.5rem    
+               width: 367px
+               float: left
+
+               .img img
+                  width: 100%
+

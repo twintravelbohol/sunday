@@ -1,0 +1,81 @@
+.site-header
+   background-color: $color-alt
+   
+   .header-container      
+      @extend .container
+      padding-top: 0px
+      padding-bottom: 0px
+      
+      .nav            
+         
+         .nav-menu
+            +display(flex)
+            margin-top: .3rem
+            @extend .nav-menu-item
+            
+            .menu-item
+               +flex-grow(1)
+               text-align: center
+               margin-right: 0px
+               @extend .small
+               
+               a
+                  line-height: 2.5rem
+         
+      .search
+         +position(relative)
+         line-height: 2rem
+         
+         &:after
+            content: ''
+            +position(absolute, 0px 2px 0px null)
+            width: 30px
+            z-index: 3
+            background: 
+               image: url('../img/search.png')
+               repeat: no-repeat
+               size: 60%
+               position: center
+            
+         input
+            outline: none
+            
+         input:-webkit-autofill
+            -webkit-box-shadow: 0 0 0px 1000px $color-main inset
+            -webkit-text-fill-color: white !important
+         
+         input[type='text']
+            width: 100%
+            padding: .1rem .2rem
+            border: 1px solid black
+            border-radius: 1px
+         
+            &:focus
+               border-color: $color-hover
+         
+         input[type='submit']
+            +position(absolute, 0px 0px 0px null)
+            width: 30px
+            z-index: 2
+            opacity: 0
+            
+            
+@media screen and (min-width: 700px)
+   .site-header
+      .header-container    
+         +clearfix()
+
+         .nav            
+            float: left
+
+            .nav-menu
+               margin-top: 0px
+
+               .menu-item
+                  margin-right: 1rem
+
+                  a
+                     line-height: 2rem
+
+         .search
+            float: right
