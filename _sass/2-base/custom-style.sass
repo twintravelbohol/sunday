@@ -87,6 +87,7 @@
                
                .title
                   margin-bottom: .4rem
+                  height: auto
          
    .box-title
       color: white
@@ -105,7 +106,6 @@
                border-bottom: 0px
                text-transform: none
                margin-bottom: 0px
-               max-height: 46px
                overflow: hidden
 
             .date
@@ -131,7 +131,10 @@
 
             .text
                padding: 0px   
-               padding-right: .6rem
+               padding-right: .7rem
+               
+               .title
+                  height: 46px
                
    @media screen and (min-width: 768px)
       .article-list
@@ -146,7 +149,8 @@
                overflow: hidden
 
                img
-                  width: 100%
+                  +size(auto 100%)
+                  min-width: 100%
 
             .text
                float: left
@@ -170,9 +174,6 @@
       .article-list
          .article
             width: 365px
-            
-            .img
-               height: 80px
             
             .text
                width: 240px
@@ -316,7 +317,7 @@
       +display(block)
       margin-bottom: .6rem
       border-bottom: 1px dotted black
-      padding: .6rem 0px
+      padding: .6rem 0px 1.1rem
 
       &:last-of-type
          border-bottom-width: 0px
@@ -337,7 +338,7 @@
 
          .extra
             font-size: .88rem
-            margin: .1rem 0px .6rem
+            margin: .1rem 0px .5rem
 
             > *
                margin-right: .3rem
@@ -383,11 +384,12 @@
          .img
             +display(block)
             float: left
-            width: 215px
+            +size(215px 161px)
             overflow: hidden
+            border: 1px solid #ddd
 
             img
-               +size(auto 165px)
+               +size(auto 100%)
 
          .text
             float: left
@@ -399,7 +401,7 @@
                   color: darken($color-alt, 12)
 
             .description
-               margin-bottom: .8rem
+               margin-bottom: 0px
 
             .read-more
                margin-top: 0px
@@ -410,6 +412,9 @@
       width: 605px
 
       .article            
+         .img
+            height: 150px
+                        
          .text
             width: 390px
 
@@ -422,19 +427,18 @@
 
       .article
          .img
-            width: 265px
-            
-            img               
-               +size(auto 200px)
+            +size(265px 200px)
 
          .text
             width: 530px
 
             .title
                font-size: 2rem
+               height: 76px
 
             .description
                +display(inline-block)
+               margin-bottom: .8rem
 
             .read-more
                +display(inline-block)
@@ -462,8 +466,6 @@
          background-color: white
          +clearfix()
          
-         .articles
-
          .sidebar
             +display(none)   
                   
