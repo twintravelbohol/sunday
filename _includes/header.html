@@ -1,0 +1,48 @@
+<!DOCTYPE html >
+<html lang='en'>
+<head>
+   <title>{{ page.title }}</title>
+   <meta charset='utf-8'>
+   <meta name='description' content="{{ page.title }}{% if page.desc %} · {{ page.desc }}{% endif %}">
+   <meta name='keywords' content='{{ page.meta }}'>
+   <meta name='author' content='{{site.data.settings.owner}}'>
+   <meta name='dcterms.rightHolder' content='{{site.url}}'>
+   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+   <link rel='cannonical' href="{{site.url}}{{page.url | replace: 'index.html' , ''}}">
+   <link rel='stylesheet' href='{{site.baseurl}}/assets/css/main.css' type='text/css'>
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Source+Sans+Pro:300,400" rel="stylesheet">
+   <link rel='shortcut icon' href='{{site.baseurl}}/favicon.ico'>   
+   
+   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+   {% include random-post.html %}  
+   
+</head>
+<body id='main'>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+   
+<header class='site-header'>
+   <section class='header-container'>
+      <nav class='nav'>
+         <ul class='nav-menu'>
+            <li class='menu-item'><a href='/'>Home</a></li>
+            <li class='menu-item'><a href='{{ site.url }}/headlines'>Headlines</a></li>
+            <li class='menu-item'><a href='{{ site.url }}/front-page'>Frontpage</a></li>
+            <li class='menu-item'><a href='{{ site.url }}/major-events'>Major Events</a></li>
+            <li class='menu-item'><a href='{{ site.url }}/editorial'>Editorial</a></li>
+         </ul>
+      </nav>
+      <form class='search' action='/search' method='get'>
+         <input type='text' id='search-box' name='query' size='32' placeholder='search'>
+         <input type='submit' value=''>         
+      </form>
+   </section>
+</header>
+   
+   

@@ -1,0 +1,18 @@
+<section class="more-post {{ include.more-post-type }}">
+   <h4 class='box-title'>{{ include.widget-title }}</h4>
+   <section class='article-list'>
+      {% for post in site.posts %}
+      {% if page.title != post.title %}
+      <a class='article' href='{{ post.url }}'>
+         <figure class='img'>
+            <img src='/assets/img/post1.jpg'>
+         </figure>
+         <div class='text'>
+            <h5 class='title'>{{ post.title }}</h5>
+            <span class='date'>{{ post.date | date: "%B %-d, %Y" }}</span>
+         </div>
+      </a>
+      {% endif %}
+      {% endfor %}
+   </section>
+</section>

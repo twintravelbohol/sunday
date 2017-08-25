@@ -1,0 +1,70 @@
+---
+layout: default
+title: Sunday News
+---
+
+<section class='headlines'>
+   <section class='headlines-container'>
+      <article class='article'>
+         <figure class='img'>
+            <img src='/assets/img/post1.jpg'>
+         </figure>
+         <h2 class='title'>Women discover what fashion mistake not to make in 2017</h2>
+      </article>
+      <article class='article'>
+         <figure class='img'>
+            <img src='/assets/img/post1.jpg'>
+         </figure>
+         <h2 class='title'>Women discover what fashion mistake not to make in 2017</h2>
+      </article>
+      <article class='article'>
+         <figure class='img'>
+            <img src='/assets/img/post1.jpg'>
+         </figure>
+         <h2 class='title'>Women discover what fashion mistake not to make in 2017</h2>
+      </article>
+      <article class='article'>
+         <figure class='img'>
+            <img src='/assets/img/post1.jpg'>
+         </figure>
+         <h2 class='title'>Women discover what fashion mistake not to make in 2017</h2>
+      </article>
+      <article class='article'>
+         <figure class='img'>
+            <img src='/assets/img/post1.jpg'>
+         </figure>
+         <h2 class='title'>Women discover what fashion mistake not to make in 2017</h2>
+      </article>
+   </section>
+</section>
+
+<section class='main-content'>
+   <section class='main-content-container'>
+      <section class='articles'>
+         <h4 class='box-title'>News right now</h4>
+         {% for post in site.posts %}
+         {% if post.category != 'editorial' %}
+         <article class='article'>
+            <figure class='img'>
+               <img src='/assets/img/post1.jpg'>
+            </figure>
+            <div class='text'>
+               <a class='title' href='{{ site.url }}{{ post.url }}'>{{ post.title }}</a>
+               <div class='extra'>
+                  <a class='cat' href='{{ site.url }}/{{ post.category }}'>{{ post.category }}</a>
+                  <span class='author'>{{ post.author }}</span>
+                  <span class='date'>{{ post.date | date: "%B %-d, %Y" }}</span>
+               </div>
+               <p class='description'>{{ post.content | truncatewords:13 | remove: "<p>" | remove: "</p>" }}</p>
+               <a class='read-more' href='{{ site.url }}{{ post.url }}'>Read more</a>
+            </div>
+         </article>
+         {% endif %}
+         {% endfor %}
+      </section>
+      
+      <section class='sidebar'>
+         {% include fb-likebox.html %}
+      </section>
+   </section>
+</section>

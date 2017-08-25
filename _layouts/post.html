@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<section class='post'>
+   <section class='post-container'>
+      <header class='post-header'>
+         <h1 class='title'>{{ page.title }}</h1>
+         <div class='extra'>
+            <span class='author'>By <a href='/'>{{ page.author }}</a></span>
+            <span class='date'>{{ page.date | date: "%B %-d, %Y" }}</span>
+         </div>
+      </header>
+
+      <div class='post-body'>
+         <div class='post-content'>
+            {% include social-share.html %}
+            {{ content }}
+            {% include social-share.html social-post='social-bottom' %}
+            
+            <div class='prev-next-pagination'>
+               {% if page.previous.url %}
+                  <a class='prev-page' href='{{ page.previous.url }}'>{{ page.previous.title }}</a>
+               {% endif %}
+               {% if page.next.url %}
+                  <a class='next-page' href='{{ page.next.url }}'>{{ page.next.title }}</a>
+               {% endif %}
+            </div>
+            
+            <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="5" data-colorscheme="light"></div>
+            
+         </div>
+         <div class='post-sidebar'>
+            {% include fb-likebox.html %}
+            {% include more-post.html more-post-type='more-post-sidebar' widget-title='popular news' %}
+         </div>
+      </div>
+   </section>
+</section>

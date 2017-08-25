@@ -1,0 +1,19 @@
+<section class='banner'>
+   <section class='banner-container'>
+      <figure class='img'>
+         <img src='/assets/img/banner.jpg'>
+      </figure>
+      <div class='touch'>
+         <div class='mobile'>
+            {% for mobile in site.data.settings.mobile %}
+            <span class='{{ mobile.name }}'>{{ mobile.name }}: <a href='tel:{{ mobile.number }}'>{{ mobile.number }}</a></span>
+            {% endfor %}
+         </div>
+         <div class='email'>
+            {% for email in site.data.settings.email %}
+            <span>{{ email.name }}: <a href='mailto:{{ email.mail }}'>{{ email.mail }}</a></span>
+            {% endfor %}
+         </div>
+      </div>
+   </section>
+</section>

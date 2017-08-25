@@ -1,0 +1,16 @@
+title: Sunday News
+owner: Atty. Dandan A. Bantugan
+addess: Tagbilaran City, Bohol, Philippines
+email: attydandanbantugan@gmail.com
+map: ''
+
+mobile:
+ - {name: 'smart', number: '+63 920 418 4488'}
+ - {name: 'globe', number: '+63 917 304 1888'}
+ - {name: 'sun', number: '+63 925 568 1005'}
+ 
+email:
+ - {name: 'yahoo', mail: 'attydandanbantugan@yahoo.com' }
+ - {name: 'gmail', mail: 'attydandanbantugan@gmail.com' }
+
+facebook: 'https://www.facebook.com/boholsundaynews1004/'

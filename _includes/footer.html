@@ -1,0 +1,43 @@
+<footer class='site-footer'>
+   <section class='footer-container'>
+      <section class='upper-footer'>
+         <div class='about'>
+            <figure class='img'>
+               <img src='/assets/img/banner.jpg'>
+            </figure>
+            <p class='desc'>Newsmag is your news, entertainment, music fashion website. We provide you with the latest breaking news and videos straight from the entertainment industry.</p>
+            <span class='email'>Contact us: 
+               {% for email in site.data.settings.email %}
+               {% if email.name == 'gmail' %}
+               <a href='/'>{{ email.mail }}</a>
+               {% endif %}
+               {% endfor %}
+            </span>      
+         </div>
+         
+      <section class='more-post'>
+         <h4 class='box-title'>more news</h4>
+         <section class='article-list'>
+            <div id='random_posts'>
+            </div>
+         </section>
+      </section>
+         
+      </section>
+      <section class='lower-footer'>
+         <div class='copyright'>© copyright 2017 - newsmag by aedesign</div>
+         <nav class='nav'>
+            <ul class='nav-menu'>
+               <li class='menu-item'><a href='/'>about</a></li>
+               <li class='menu-item'><a href='/'>contact</a></li>
+               <li class='menu-item'><a href='/'>faq</a></li>
+            </ul>
+         </nav>
+      </section>
+   </section>
+</footer>
+
+<script src='/assets/js/function.js'></script>
+
+</body>
+</html>

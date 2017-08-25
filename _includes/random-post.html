@@ -1,0 +1,44 @@
+<script type="text/javascript">
+
+    function generateRandomPosts()
+    {
+        $.getJSON("/search.json", function(data) {
+            console.log("[search.json loaded for random posts]");
+
+            var postsCount = data.length;
+            var posts = data;
+
+            var randomIndexUsed = [];
+            var counter = 0;
+            var numberOfPosts = 4;
+
+            var divRandomPosts = $("#random_posts");
+
+            while (counter < numberOfPosts)
+            {
+                var randomIndex = Math.floor(Math.random() * postsCount);
+
+                if (randomIndexUsed.indexOf(randomIndex) == "-1")
+                {
+                    var postHREF = posts[randomIndex].href;
+                    var postTitle = posts[randomIndex].title;
+                    var postDate = posts[randomIndex].date;
+                    var postImg = posts[randomIndex].img;
+                   
+                   console.log(postImg);
+                   
+                  divRandomPosts.append('<a class="article" href="' + postHREF + '"><figure class="img"><img src="/assets/img/' + postImg + '.jpg"></figure><div class="text"><h5 class="title">' + postTitle + '</h5><span class="date">' + postDate.month + ' ' + postDate.day + ', ' + postDate.year + '</span></div></a>');
+
+                    randomIndexUsed.push(randomIndex);
+
+                    counter++;
+                }
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        generateRandomPosts();
+    });
+
+</script>
