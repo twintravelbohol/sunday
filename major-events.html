@@ -17,7 +17,7 @@ title: Major Events
             {% if post.category == cat-title %}
             <article class='article'>
                <figure class='img'>
-                  <img src='/assets/img/post1.jpg'>
+                  <img src="/assets/img/{{ post.title | replace: ' ', '-' | downcase }}.jpg">
                </figure>
                <div class='text'>
                   <a class='title' href='{{ site.url }}{{ post.url }}'>{{ post.title }}</a>

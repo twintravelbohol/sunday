@@ -46,7 +46,7 @@ title: Sunday News
          {% if post.category != 'editorial' %}
          <article class='article'>
             <figure class='img'>
-               <img src='/assets/img/post1.jpg'>
+               <img src="/assets/img/{{ post.title | replace: ' ', '-' | downcase }}.jpg">
             </figure>
             <div class='text'>
                <a class='title' href='{{ site.url }}{{ post.url }}'>{{ post.title }}</a>
