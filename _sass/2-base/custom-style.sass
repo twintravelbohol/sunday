@@ -380,10 +380,10 @@
             +display(block)
             float: left
             width: 215px
+            overflow: hidden
 
             img
-               min-width: 100%
-               width: 100%
+               +size(auto 165px)
 
          .text
             float: left
@@ -405,7 +405,7 @@
       float: left
       width: 605px
 
-      .article
+      .article            
          .text
             width: 390px
 
@@ -419,6 +419,9 @@
       .article
          .img
             width: 265px
+            
+            img               
+               +size(auto 200px)
 
          .text
             width: 530px

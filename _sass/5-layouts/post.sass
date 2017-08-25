@@ -14,14 +14,21 @@
             > span
                font-weight: 400
                
-            .author
-               margin-right: .3rem
+            .author, .cat
+               margin-right: .2rem
                   
                &:after
-                  content: ' -'
+                  content: ':'
+                  margin-left: .35rem
                
                a
                   font-weight: 700
+                  text-transform: capitalize
+                  
+            .cat:after
+               content: '-'
+               
+                  
       
       .post-body
          padding: 1rem

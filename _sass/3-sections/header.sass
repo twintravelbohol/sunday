@@ -6,8 +6,7 @@
       padding-top: 0px
       padding-bottom: 0px
       
-      .nav            
-         
+      .nav                     
          .nav-menu
             +display(flex)
             margin-top: .3rem
@@ -19,6 +18,9 @@
                margin-right: 0px
                @extend .small
                
+               &.home
+                  +display(none)
+                     
                a
                   line-height: 2.5rem
          
@@ -58,6 +60,16 @@
             width: 30px
             z-index: 2
             opacity: 0
+            
+@media screen and (min-width: 500px)
+   .site-header
+      .header-container      
+         .nav            
+            .nav-menu
+               .menu-item
+                  &.home
+                     +display(block)
+         
             
             
 @media screen and (min-width: 700px)
