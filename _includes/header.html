@@ -11,8 +11,14 @@
    <link rel='cannonical' href="{{site.url}}{{page.url | replace: 'index.html' , ''}}">
    <link rel='stylesheet' href='/assets/css/main.css' type='text/css'>
    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Source+Sans+Pro:300,400" rel="stylesheet">
-   <link rel='shortcut icon' href='/favicon.ico'>   
-   
+   <link rel='shortcut icon' href='/favicon.ico'>      
+   {% if page.layout == 'post' %}
+   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+   <meta property="og:type" content="article" />
+   <meta property="og:title" content="{{ page.title }}" />
+   <meta property="og:description" content="{{ page.content | remove: '<p>' | remove: '</p>' | truncatewords:20 }}" />
+   <meta property="og:image" content="{{ site.url }}/assets/img/{{ page.title | downcase | replace: ' ', '-'}}.jpg" />
+   {% endif %}   
    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
    {% include random-post.html %}  
    
