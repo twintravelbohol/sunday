@@ -6,12 +6,14 @@ title: Bohol Sunday News
 <section class='headlines'>
    <section class='headlines-container'>
       {% for post in site.posts limit:5 %}
+      {% if post.category != 'opinions' and post.category != 'editorial' %}
       <a class='article' href='{{ post.url }}'>
          <figure class='img'>
             <img src="/assets/img/{{ post.title | replace: ' ', '-' | downcase }}.jpg">
          </figure>
          <h2 class='title'>{{ post.title }}</h2>
       </a>
+      {% endif %}
       {% endfor %}
    </section>
 </section>
@@ -21,7 +23,7 @@ title: Bohol Sunday News
       <section class='articles'>
          <h4 class='box-title'>News right now</h4>
          {% for post in site.posts %}
-         {% if post.category != 'editorial' %}
+         {% if post.category != 'editorial' and post.category != 'opinions' %}
          <article class='article'>
             <figure class='img'>
                <img src="/assets/img/{{ post.title | replace: ' ', '-' | downcase }}.jpg">

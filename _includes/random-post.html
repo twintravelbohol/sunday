@@ -10,7 +10,7 @@
 
             var randomIndexUsed = [];
             var counter = 0;
-            var numberOfPosts = 4;
+            var numberOfPosts = 1;
 
             var divRandomPosts = $("#random_posts");
 
@@ -24,8 +24,6 @@
                     var postTitle = posts[randomIndex].title;
                     var postDate = posts[randomIndex].date;
                     var postImg = posts[randomIndex].img;
-                   
-                   console.log(postImg);
                    
                   divRandomPosts.append('<a class="article" href="' + postHREF + '"><figure class="img"><img src="/assets/img/' + postImg + '.jpg"></figure><div class="text"><h5 class="title">' + postTitle + '</h5><span class="date">' + postDate.month + ' ' + postDate.day + ', ' + postDate.year + '</span></div></a>');
 

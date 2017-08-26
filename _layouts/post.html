@@ -16,10 +16,11 @@ layout: default
       <div class='post-body'>
          <div class='post-content'>
             {% include social-share.html %}
-            
+            {% if page.image %}
             <figure class='img'>
                <img src="/assets/img/{{ page.title | downcase | replace: ' ', '-' }}.jpg">
             </figure>
+            {% endif %}
             
             {{ content }}
             {% include social-share.html social-post='social-bottom' %}

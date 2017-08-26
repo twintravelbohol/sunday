@@ -1,0 +1,8 @@
+---
+layout: post
+title: 'Converting vast rice farm into a cement factory'
+category: top-stories
+image: true
+---
+
+The limestone mining in Garcia-Hernandez town hovering over a vast rice farmland where the proposed cement factory is to be constructed. (rvo)
