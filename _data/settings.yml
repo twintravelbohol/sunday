@@ -10,6 +10,12 @@ mobile:
  - {name: 'globe', number: '+63 917 304 1888'}
  - {name: 'sun', number: '+63 925 568 1005'}
  
+menu:
+ - {name: 'Headlines', url: 'headlines'}
+ - {name: 'Top Stories', url: 'top-stories'}
+ - {name: 'Editorial', url: 'editorial'}
+ - {name: 'Opinions', url: 'opinions'}
+ 
 email:
  - {name: 'yahoo', mail: 'attydandanbantugan@yahoo.com.ph' }
  - {name: 'gmail', mail: 'attydandanbantugan@gmail.com' }
