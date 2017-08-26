@@ -1,7 +1,7 @@
 <!DOCTYPE html >
 <html lang='en'>
 <head>
-   <title>{{ page.title }}</title>
+   <title>{{ page.title }}{% if page.layout == 'default' and page.title != site.data.settings.title %} · {{ site.data.settings.title }}{% endif %}{% if page.layout == 'post' %} · {{ site.data.settings.title }}{% endif %}</title>
    <meta charset='utf-8'>
    <meta name='description' content="{{ page.title }}{% if page.desc %} · {{ page.desc }}{% endif %}">
    <meta name='keywords' content='{{ page.meta }}'>
