@@ -1,5 +1,5 @@
 .site-header
-   background-color: $color-alt
+   background-color: #4d00ff
    
    .header-container      
       @extend .container
@@ -17,12 +17,24 @@
                text-align: center
                margin-right: 0px
                @extend .small
+               border-bottom: 2px solid transparent
+               border-top: 2px solid transparent
                
                &.home
                   +display(none)
                      
+               &.current
+                  border-bottom-color: rgba(white, .8)
+                     
                a
                   line-height: 2.5rem
+                  color: white
+                  
+               &:hover
+                  border-bottom-color: white
+               
+                  a
+                     color: white
          
       .search
          +position(relative)
