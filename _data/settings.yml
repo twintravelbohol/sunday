@@ -1,7 +1,8 @@
 title: Bohol Sunday News
 owner: Atty. Dandan A. Bantugan
 addess: Tagbilaran City, Bohol, Philippines
-email: attydandanbantugan@gmail.com
+email: attydandanbantugan@yahoo.com.ph
+desc: '<strong>BOHOL, SUNDAY NEWS</strong> is a weekly newspaper based in Tagbilaran City, Bohol, Philippines. It is a sister publication of the <strong>BOHOL BALITA DAILY NEWS (BBDN)</strong> and the <strong>BOHOL NEWS TODAY (BNT)</strong>. This independent Boholano newspaper is dedicated to the freedom of the press, to protect the right to air grievances and seek redress from government. It welcomes press releases, articles, suggestions, comments and opinions and undertakes to publish the same subject to editorial policies and ethical standards of a balanced and truthful journalism.'
 map: ''
 
 mobile:
@@ -10,7 +11,7 @@ mobile:
  - {name: 'sun', number: '+63 925 568 1005'}
  
 email:
- - {name: 'yahoo', mail: 'attydandanbantugan@yahoo.com' }
+ - {name: 'yahoo', mail: 'attydandanbantugan@yahoo.com.ph' }
  - {name: 'gmail', mail: 'attydandanbantugan@gmail.com' }
 
 facebook: 'https://www.facebook.com/boholsundaynews1004/'

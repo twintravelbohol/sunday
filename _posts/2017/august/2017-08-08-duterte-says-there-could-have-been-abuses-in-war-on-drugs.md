@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Duterte says there could have been abuses in war on drugs
-category: front-page
+category: top-stories
 ---
 
 MANILA (Reuters) – President Rodrigo Duterte on Monday said there could have been abuses in his government’s war on drugs and ordered the police to take custody of officers who were involved in the killing of a high school student last week.

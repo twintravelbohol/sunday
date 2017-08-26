@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DOE wants to expand Malampaya funds coverage
-category: major-events
+category: top-stories
 ---
 
 The Department of Energy (DOE) on Thursday said it will ask President Rodrigo Duterte to endorse to Congress the passage of a bill expanding the coverage of the Malampaya funds.

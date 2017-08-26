@@ -5,10 +5,10 @@
             <figure class='img'>
                <img src='/assets/img/banner.jpg'>
             </figure>
-            <p class='desc'>Newsmag is your news, entertainment, music fashion website. We provide you with the latest breaking news and videos straight from the entertainment industry.</p>
+            <p class='desc'>{{ site.data.settings.desc }}</p>
             <span class='email'>Contact us: 
                {% for email in site.data.settings.email %}
-               {% if email.name == 'gmail' %}
+               {% if email.name == 'yahoo' %}
                <a href='/'>{{ email.mail }}</a>
                {% endif %}
                {% endfor %}

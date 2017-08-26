@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Balay sa Kabos builds its 213th home
-category: front-page
+category: top-stories
 ---
 
 Victorio Galiguer, barangay captain of Tubod Monte, Jagna, Bohol, recalls how his father, Rufiniano, once had the passion to help others especially by building homes for the homeless. If Rufiniano had not been diagnosed with diabetes, he would have added more houses to the fourteen he had built in barangay Tubod Monte. But on a constructive note, his diabetes paved way to inspiring more people in following his passion of serving the poor.

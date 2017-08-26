@@ -1,0 +1,42 @@
+---
+layout: default
+title: Opinions
+---
+
+<section class='category'>
+   <section class='category-container'>
+      
+      <header class='category-header'>
+         <h1 class='title'>{{ page.title }}</h1>
+      </header>
+      
+      <section class='category-body'>
+         <section class='articles'>
+            {% for post in site.posts %}
+            {% assign cat-title = page.title | downcase | replace: ' ', '-' %}
+            {% if post.category == cat-title %}
+            <article class='article'>
+               <figure class='img'>
+                  <img src="/assets/img/{{ post.title | replace: ' ', '-' | downcase }}.jpg">
+               </figure>
+               <div class='text'>
+                  <a class='title' href='{{ site.url }}{{ post.url }}'>{{ post.title }}</a>
+                  <div class='extra'>
+                     <a class='cat' href='{{ site.url }}/{{ post.category }}'>{{ post.category | replace: '-', ' ' }}</a>
+                     <span class='author'>{{ site.data.settings.title }}</span>
+                     <span class='date'>{{ post.date | date: "%B %-d, %Y" }}</span>
+                  </div>
+                  <p class='description'>{{ post.content | truncatewords:13 | remove: "<p>" | remove: "</p>" }}</p>
+                  <a class='read-more' href='{{ site.url }}{{ post.url }}'>Read more</a>
+               </div>
+            </article>
+            {% endif %}
+            {% endfor %}
+         </section>
+
+         <section class='sidebar'>
+            {% include fb-likebox.html %}
+         </section>
+      </section>
+   </section>
+</section>
