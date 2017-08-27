@@ -5,14 +5,16 @@ title: Bohol Sunday News
 
 <section class='headlines'>
    <section class='headlines-container'>
-      {% for post in site.posts limit:5 %}
-      {% if post.category != 'opinions' and post.category != 'editorial' %}
+      {% for post in site.posts %}
+      {% if post.category == 'headlines' %}
+      {% if post.image %}
       <a class='article' href='{{ post.url }}'>
          <figure class='img'>
-            <img src="/assets/img/{{ post.title | replace: ' ', '-' | downcase }}.jpg">
+            <img src="/assets/img/{% if post.image %}{{ post.title | replace: ' ', '-' | downcase | replace: '.', '' | replace: ',', '' | replace: ':', '' }}.jpg{% else %}no-prev.jpg{% endif %}">
          </figure>
          <h2 class='title'>{{ post.title }}</h2>
       </a>
+      {% endif %}
       {% endif %}
       {% endfor %}
    </section>
@@ -26,7 +28,7 @@ title: Bohol Sunday News
          {% if post.category != 'editorial' and post.category != 'opinions' %}
          <article class='article'>
             <figure class='img'>
-               <img src="/assets/img/{{ post.title | replace: ' ', '-' | downcase }}.jpg">
+               <img src="/assets/img/{% if post.image %}{{ post.title | replace: ' ', '-' | downcase  | replace: '.', '' | replace: ',', ''  | replace: ':', '' }}.jpg{% else %}no-prev.jpg{% endif %}">
             </figure>
             <div class='text'>
                <a class='title' href='{{ site.url }}{{ post.url }}'>{{ post.title }}</a>

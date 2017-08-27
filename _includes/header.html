@@ -41,7 +41,7 @@
             <li class='menu-item home'><a href='/'>Home</a></li>
             {% for nav in site.data.settings.menu %}
             <li class='menu-item {% if page.url contains nav.url %}current{% endif %}'><a href='{{ site.url }}/{{ nav.url | downcase }}'>{{ nav.name }}</a></li>
-            {% endfor %}}
+            {% endfor %}
          </ul>
       </nav>
       <form class='search' action='/search' method='get'>

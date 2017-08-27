@@ -18,7 +18,7 @@ layout: default
             {% include social-share.html %}
             {% if page.image %}
             <figure class='img'>
-               <img src="/assets/img/{{ page.title | downcase | replace: ' ', '-' }}.jpg">
+               <img src="/assets/img/{{ page.title | downcase | replace: ' ', '-' | replace: '.', '' | replace: ',', '' | replace: ':', '' }}.jpg">
             </figure>
             {% endif %}
             
