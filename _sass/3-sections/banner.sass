@@ -1,82 +1,61 @@
 .banner
-   background-color: black 
-   
+   background-color: black
+
    .banner-container
       @extend .container
       padding-bottom: 1.8rem
-      text-align: center         
+      text-align: center
 
       .img
          max-width: 800px
          margin: 0px auto
          +display(inline-block)
-      
+
          img
             width: 100%
-      
+
       .touch
          margin-top: .5rem
-         
+
          > div
             padding: .3rem 0px .1rem
-            
+
             > span
                color: white
                text-transform: lowercase
                +display(inline-block)
 
-               > a 
+               > a
                   color: white
 
          .mobile
             > span
                width: 49.5%
-               
-               &.sun
-                  +display(none)
-               
+
          .email
-            +display(none)               
-               
+            +display(none)
+
 @media screen and (min-width: 530px)
    .banner
-      .banner-container         
+      .banner-container
          .touch
             margin-top: .8rem
-               
+
             > div
                > span
-                  &:hover 
+                  &:hover
                      color: darken($color-alt, 12)
 
                      > a
                         color: darken($color-alt, 12)
 
-                  &:first-of-type
-                     text-align: left
-
-                  &:last-of-type
-                     text-align: right
-
-            .mobile
-               > span
-                  width: 32.5%
-                  
-                  &.sun
-                     +display(inline-block)
-               
 @media screen and (min-width: 685px)
    .banner
       .banner-container
          .touch
-            .mobile
-               > span
-                  width: 33%
-                  
             .email
                +display(block)
-                  
+
                > span
                   +display(inline-block)
                   width: 49.5%
-         

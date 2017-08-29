@@ -147,10 +147,11 @@
                float: left
                +display(block)
                overflow: hidden
+               text-align: center
+               background-color: #e9e9e9
 
                img
                   +size(auto 100%)
-                  min-width: 100%
 
             .text
                float: left
@@ -422,6 +423,9 @@
 
             .title
                font-size: 1.7rem
+               
+            .description
+               +display(inline-block)
             
 
    @media screen and (min-width: 1200px)
@@ -439,7 +443,7 @@
                height: 76px
 
             .description
-               +display(inline-block)
+               +display(block)
                margin-bottom: .8rem
 
             .read-more
