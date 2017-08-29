@@ -2,22 +2,26 @@ title: Bohol Sunday News
 owner: Atty. Dandan A. Bantugan
 addess: Tagbilaran City, Bohol, Philippines
 email: attydandanbantugan@yahoo.com.ph
-desc: '<strong>BOHOL, SUNDAY NEWS</strong> is a weekly newspaper based in Tagbilaran City, Bohol, Philippines. It is a sister publication of the <strong>BOHOL BALITA DAILY NEWS (BBDN)</strong> and the <strong>BOHOL NEWS TODAY (BNT)</strong>. This independent Boholano newspaper is dedicated to the freedom of the press, to protect the right to air grievances and seek redress from government. It welcomes press releases, articles, suggestions, comments and opinions and undertakes to publish the same subject to editorial policies and ethical standards of a balanced and truthful journalism.'
+desc: '<strong>BOHOL SUNDAY NEWS</strong> is a weekly newspaper based in Tagbilaran City, Bohol, Philippines. It is a sister publication of the <strong>BOHOL BALITA DAILY NEWS (BBDN)</strong> and the <strong>BOHOL NEWS TODAY (BNT)</strong>. This independent Boholano newspaper is dedicated to the freedom of the press, to protect the right to air grievances and seek redress from government. It welcomes press releases, articles, suggestions, comments and opinions and undertakes to publish the same subject to editorial policies and ethical standards of a balanced and truthful journalism.'
 map: ''
 
 mobile:
  - {name: 'smart', number: '+63 920 418 4488'}
  - {name: 'globe', number: '+63 917 304 1888'}
  - {name: 'sun', number: '+63 925 568 1005'}
- 
+
+tel:
+ - {name: 'pldt', number: '(038) 412-3291'}
+ - {name: 'globe', number: '(038) 501-9822'}
+
 menu:
  - {name: 'Headlines', url: 'headlines'}
  - {name: 'Top Stories', url: 'top-stories'}
  - {name: 'Editorial', url: 'editorial'}
  - {name: 'Opinions', url: 'opinions'}
- 
+
 email:
- - {name: 'yahoo', mail: 'attydandanbantugan@yahoo.com.ph' }
- - {name: 'gmail', mail: 'attydandanbantugan@gmail.com' }
+ - {name: 'yahoo', mail: 'boholsundaynews@yahoo.com' }
+ - {name: 'gmail', mail: 'boholsundaynews@gmail.com' }
 
 facebook: 'https://www.facebook.com/boholsundaynews1004/'

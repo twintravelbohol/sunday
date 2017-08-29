@@ -2,6 +2,8 @@
 layout: post
 title: 'The symbolic key'
 category: opinions
+image: true
+dated: August 20 - 26, 2017
 ---
 
 21st Sunday of the Year (cycle A)

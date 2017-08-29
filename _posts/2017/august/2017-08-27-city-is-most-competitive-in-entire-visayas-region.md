@@ -3,6 +3,7 @@ layout: post
 title: 'City is most competitive in entire Visayas region'
 category: headlines
 image: true
+dated: August 20 - 26, 2017
 ---
 
 CITY MAYOR BABA YAP

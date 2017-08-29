@@ -2,6 +2,8 @@
 layout: post
 title: 'BSN: Proud PPI member'
 category: opinions
+image: true
+dated: August 20 - 26, 2017
 ---
 
 Frankly speaking, this paper is still a cinch away from achieving the regular membership in the most prestigious Philippine Press Institute (PPI), the national association of Philippine newspapers.

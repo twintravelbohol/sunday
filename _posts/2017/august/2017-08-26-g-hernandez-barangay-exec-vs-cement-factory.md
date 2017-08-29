@@ -2,6 +2,7 @@
 layout: post
 title: 'G-Hernandez barangay exec vs. cement factory'
 category: top-stories
+dated: August 20 - 26, 2017
 ---
 
 GARCIA-HERNANDEZ.- A punong barangay in this town expressed apprehensions over the week over the planned cement factory over the ricefields in  Barangays Manaba and West Canayaon.

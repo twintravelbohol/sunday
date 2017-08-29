@@ -3,6 +3,7 @@ layout: post
 title: 'After posting P300T bail, Cong. Yap charged again'
 category: headlines
 image: true
+dated: August 20 - 26, 2017
 ---
 
 It appears to be a double whammy for Cong. Art C. Yap this month as he was charged twice by the Ombudsman in connection with the Priority Development Assistance Fund (PDAF) pork mess.

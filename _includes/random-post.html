@@ -22,10 +22,10 @@
                 {
                     var postHREF = posts[randomIndex].href;
                     var postTitle = posts[randomIndex].title;
-                    var postDate = posts[randomIndex].date;
+                    var postDated = posts[randomIndex].dated;
                     var postImg = posts[randomIndex].img;
                    
-                  divRandomPosts.append('<a class="article" href="' + postHREF + '"><figure class="img"><img src="/assets/img/' + postImg + '.jpg"></figure><div class="text"><h5 class="title">' + postTitle + '</h5><span class="date">' + postDate.month + ' ' + postDate.day + ', ' + postDate.year + '</span></div></a>');
+                  divRandomPosts.append('<a class="article" href="' + postHREF + '"><figure class="img"><img src="/assets/img/' + postImg + '.jpg"></figure><div class="text"><h5 class="title">' + postTitle + '</h5><span class="date">' + postDated + '</span></div></a>');
 
                     randomIndexUsed.push(randomIndex);
 

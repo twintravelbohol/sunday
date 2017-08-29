@@ -2,6 +2,8 @@
 layout: post
 title: 'Half-empty or half-full'
 category: opinions
+image: true
+dated: August 20 - 26, 2017
 ---
 
 It’s not yet 100%, but there is light in our province. It is not total darkness. Thanks be to God, and the hands that He used to work on this, such as government officials, heads of agencies,  business sector and civil society stakeholders.

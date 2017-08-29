@@ -2,6 +2,8 @@
 layout: post
 title: 'Be angry but do not sin'
 category: opinions
+image: true
+dated: August 20 - 26, 2017
 ---
 
 The Gospel of Jesus Christ (Aug. 27, 2017- Sunday) John 2:13-25” What sign do You show us as your authority for doing these things?" Jesus answered them, "Destroy this temple, and in three days I will raise it up." The Jews then said, "It took forty-six years to build this temple, and will You raise it up in three days?" But He was speaking of the temple of His body. So when He was raised from the dead, His disciples remembered that He said this; and they believed the Scripture and the word which Jesus had spoken. Now when He was in Jerusalem at the Passover, during the feast, many believed in His name, observing His signs which He was doing. But Jesus, on His part, was not entrusting Himself to them, for He knew all men, and because He did not need anyone to testify concerning man, for He Himself knew what was in man.

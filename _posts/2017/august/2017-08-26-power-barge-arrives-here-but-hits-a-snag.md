@@ -2,6 +2,7 @@
 layout: post
 title: 'Power barge arrives here but hits a snag'
 category: top-stories
+dated: August 20 - 26, 2017
 ---
 
 PRES. GARCIA – The much-expected arrival of the power barge owned and operated by SPC Corp. finally came last week but was temporarily dock at Baud-Lawis here due to some hitches.

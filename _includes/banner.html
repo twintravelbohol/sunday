@@ -5,7 +5,7 @@
       </a>
       <div class='touch'>
          <div class='mobile'>
-            {% for mobile in site.data.settings.mobile %}
+            {% for mobile in site.data.settings.tel %}
             <span class='{{ mobile.name }}'>{{ mobile.name }}: <a href='tel:{{ mobile.number }}'>{{ mobile.number }}</a></span>
             {% endfor %}
          </div>

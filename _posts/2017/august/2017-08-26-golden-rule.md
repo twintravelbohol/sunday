@@ -3,6 +3,7 @@ layout: post
 title: 'Golden rule'
 category: editorial
 image: true
+dated: August 20 - 26, 2017
 ---
 
 He or she who sows the wind will reap the whirlwind.
