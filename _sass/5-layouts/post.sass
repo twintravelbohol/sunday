@@ -2,61 +2,75 @@
    .post-container
       @extend .container
       padding: 0px 1rem
-      
+
       .post-header
          background-color: $color-alt
          padding: 1rem
          border-bottom: 3px solid black
-         
+
          .extra
             @extend .smaller
-            
+
             > span
                font-weight: 400
-               
+
             .author, .cat
                margin-right: .2rem
-                  
+
                &:after
                   content: ':'
                   margin-left: .35rem
-               
+
                a
                   font-weight: 700
                   text-transform: capitalize
-                  
+
             .cat:after
-               content: '-'             
-      
+               content: '-'
+
       .post-body
          padding: 1rem
          background-color: white
 
          .post-content
             text-align: justify
-         
+
             .img
                text-align: center
                margin-bottom: 1rem
-            
+
                img
-                  max-width: 100% 
+                  max-width: 100%
                   padding: .5rem
-                  border: 1px solid #ddd              
+                  border: 1px solid #ddd
+                  
+               &.highlights-img img
+                  border: 0px
+                  padding: .5rem 1px
+
+               .highlights
+                  border: 1px solid #ddd
+                  background-color: lighten(#ddd, 10)
+                  text-align: justify
+                  padding: .8rem
+                  margin-bottom: 0px
+                     
+                  .hl-title   
+                     font-weight: bold              
 
          .post-sidebar
             margin-top: 1rem
-            
-            > section 
-               
+
+            > section
+
                &.social
-                  +display(none)                  
-               
+                  +display(none)
+
                .box-title
                   border-bottom-color: black
-                  
-         
-                  
+
+
+
 @media screen and (min-width: 768px)
    .post
       .post-container
@@ -68,21 +82,21 @@
 
             .post-sidebar
                +clearfix()
-               
-               > section 
+
+               > section
                   width: 48.5%
-                  
+
                   &.social
                      +display(block)
-                  
+
                   &:nth-child(odd)
                      float: left
-                     
+
                   &:nth-child(even)
                      float: right
-                  
-         
-                  
+
+
+
 @media screen and (min-width: 992px)
    .post
       .post-container
@@ -99,19 +113,19 @@
                float: right
                width: 310px
 
-               > section 
+               > section
                   margin-bottom: 1.5rem
                   width: auto
-                  
+
                   &:nth-child(odd)
                      float: none
-                     
+
                   &:nth-child(even)
                      float: none
-                  
+
 @media screen and (min-width: 1200px)
    .post
-      .post-container         
+      .post-container
          .post-body
             .post-content
                width: 720px
@@ -119,4 +133,3 @@
 
             .post-sidebar
                width: 327px
-
