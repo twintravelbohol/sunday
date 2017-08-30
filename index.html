@@ -10,7 +10,7 @@ title: Bohol Sunday News
       {% if post.image %}
       <a class='article' href='{{ post.url }}'>
          <figure class='img'>
-            <img src="/assets/img/{% if post.image %}{{ post.title | replace: ' ', '-' | downcase | replace: '.', '' | replace: ',', '' | replace: ':', '' }}.jpg{% else %}no-prev.jpg{% endif %}">
+            <img src="/assets/img{% if post.image %}{{ post.url }}.jpg{% else %}/no-prev.jpg{% endif %}">
          </figure>
          <h2 class='title'>{{ post.title }}</h2>
       </a>
@@ -28,14 +28,14 @@ title: Bohol Sunday News
          {% if post.category != 'editorial' and post.category != 'opinions' %}
          <article class='article'>
             <figure class='img'>
-               <img src="/assets/img/{% if post.image %}{{ post.title | replace: ' ', '-' | downcase  | replace: '.', '' | replace: ',', ''  | replace: ':', '' }}.jpg{% else %}no-prev.jpg{% endif %}">
+               <img src="/assets/img{% if post.image %}{{ post.url }}.jpg{% else %}/no-prev.jpg{% endif %}">
             </figure>
             <div class='text'>
                <a class='title' href='{{ site.url }}{{ post.url }}'>{{ post.title }}</a>
                <div class='extra'>
                   <a class='cat' href='{{ site.url }}/{{ post.category }}'>{{ post.category | replace: '-', ' ' }}</a>
                   <span class='author'>{{ site.data.settings.title }}</span>
-                  <span class='date'>{{ post.date | date: "%B %-d, %Y" }}</span>
+                  <span class='date'>{{ post.dated }}</span>
                </div>
                <p class='description'>{{ post.content | truncatewords:14 | remove: "<p>" | remove: "</p>" }}</p>
                <a class='read-more' href='{{ site.url }}{{ post.url }}'>Read more</a>

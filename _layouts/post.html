@@ -17,14 +17,18 @@ layout: default
          <div class='post-content'>
             {% include social-share.html %}
             {% if page.image %}
-            <figure class='img'>
-               <img src="/assets/img/{{ page.title | downcase | replace: ' ', '-' | replace: '.', '' | replace: ',', '' | replace: ':', '' }}.jpg">
+            <figure class='img {% if page.hl-desc %}highlights-img{% endif %}'>
+               <img src="/assets/img{{ page.url }}.jpg">
+               
+               {% if page.hl-desc %}
+               <p class='highlights'>{% if page.hl-title %}<span class='hl-title'>{{ page.hl-title }}</span>{% endif %}<span class='hl-desc'> {{ page.hl-desc }}</span></p>
+               {% endif %}
             </figure>
             {% endif %}
-            
+
             {{ content }}
             {% include social-share.html social-post='social-bottom' %}
-            
+
             <div class='prev-next-pagination'>
                {% if page.previous.url %}
                   <a class='prev-page' href='{{ page.previous.url }}'>{{ page.previous.title }}</a>
@@ -33,9 +37,9 @@ layout: default
                   <a class='next-page' href='{{ page.next.url }}'>{{ page.next.title }}</a>
                {% endif %}
             </div>
-            
+
             <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="5" data-colorscheme="light"></div>
-            
+
          </div>
          <div class='post-sidebar'>
             {% include fb-likebox.html %}

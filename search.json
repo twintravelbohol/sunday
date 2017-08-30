@@ -6,24 +6,16 @@
     {
       "title"    : "{{ post.title }}",
       "href"     : "{{ post.url }}",
-      "img"      : "{{ post.title | replace: ' ', '-' | downcase | replace: '.', '' | replace: ',', '' }}",
-      "date"     : {
-         "day"   : "{{ post.date | date: "%d" }}",
-         "month" : "{{ post.date | date: "%B" }}",
-         "year"  : "{{ post.date | date: "%Y" }}"
-      }
+      "img"      : "{{ post.url | remove: '/' }}",
+      "dated"     : "{{ post.dated }}"
     }
     {% unless forloop.last %},{% endunless %}
     {% else %}
     {
       "title"    : "{{ post.title }}",
       "href"     : "{{ post.url }}",
-      "img"      : "no-prev",
-      "date"     : {
-         "day"   : "{{ post.date | date: "%d" }}",
-         "month" : "{{ post.date | date: "%B" }}",
-         "year"  : "{{ post.date | date: "%Y" }}"
-      }
+      "img"      : "no-prev",   
+      "dated"     : "{{ post.dated }}"
     }
     {% unless forloop.last %},{% endunless %}
     {% endif %}
