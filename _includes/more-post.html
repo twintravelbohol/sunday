@@ -1,7 +1,7 @@
 <section class="more-post {{ include.more-post-type }}">
    <h4 class='box-title'>{{ include.widget-title }}</h4>
    <section class='article-list'>
-      {% for post in site.posts %}
+      {% for post in site.posts limit:10 %}
       {% if page.title != post.title %}
       <a class='article' href='{{ post.url }}'>
          <figure class='img'>
