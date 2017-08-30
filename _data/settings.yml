@@ -12,7 +12,7 @@ mobile:
 
 tel:
  - {name: 'pldt', number: '(038) 412-3291'}
- - {name: 'globe', number: '(038) 501-9822'}
+ - {name: 'globe', number: '(038) 501-0491'}
 
 menu:
  - {name: 'Headlines', url: 'headlines'}
