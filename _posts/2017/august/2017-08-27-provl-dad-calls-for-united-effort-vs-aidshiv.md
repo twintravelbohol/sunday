@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Prov’l dad calls for unitede ffort vs.AIDS/HIV'
+title: 'Prov’l dad calls for united effort vs.AIDS/HIV'
 category: top-stories
 image: true
 dated: August 20 - 26, 2017
