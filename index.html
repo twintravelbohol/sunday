@@ -5,8 +5,8 @@ title: Bohol Sunday News
 
 <section class='headlines'>
    <section class='headlines-container'>
-      {% for post in site.posts %}
-      {% if post.category == 'headlines' %}
+      {% for post in site.posts  limit:5 %}
+      {% if post.category != 'editorial' and post.category != 'ipinions' %}
       {% if post.image %}
       <a class='article' href='{{ post.url }}'>
          <figure class='img'>
