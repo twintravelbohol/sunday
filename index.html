@@ -6,7 +6,7 @@ title: Bohol Sunday News
 <section class='headlines'>
    <section class='headlines-container'>
       {% for post in site.posts  limit:5 %}
-      {% if post.category != 'editorial' and post.category != 'ipinions' %}
+      {% if post.category != 'editorial' and post.category != 'opinions' and post.category != 'top-stories' %}
       {% if post.image %}
       <a class='article' href='{{ post.url }}'>
          <figure class='img'>
@@ -47,6 +47,43 @@ title: Bohol Sunday News
       
       <section class='sidebar'>
          {% include fb-likebox.html %}         
+         <section class="more-post more-post-sidebar">
+            <h4 class='box-title'>Opinions</h4>
+            <section class='article-list'>
+               {% for post in site.posts %}
+               {% if post.category == 'opinions' %}
+               <a class='article' href='{{ post.url }}'>
+                  <figure class='img'>
+                     <img src='/assets/img/post1.jpg'>
+                  </figure>
+                  <div class='text'>
+                     <h5 class='title'>{{ post.title }}</h5>
+                     <span class='date'>{{ post.dated }}</span>
+                  </div>
+               </a>
+               {% endif %}
+               {% endfor %}
+            </section>
+         </section> 
+         
+         <section class="more-post more-post-sidebar">
+            <h4 class='box-title'>Editorial</h4>
+            <section class='article-list'>
+               {% for post in site.posts %}
+               {% if post.category == 'editorial' %}
+               <a class='article' href='{{ post.url }}'>
+                  <figure class='img'>
+                     <img src='/assets/img/post1.jpg'>
+                  </figure>
+                  <div class='text'>
+                     <h5 class='title'>{{ post.title }}</h5>
+                     <span class='date'>{{ post.dated }}</span>
+                  </div>
+               </a>
+               {% endif %}
+               {% endfor %}
+            </section>
+         </section>
       </section>
    </section>
 </section>
