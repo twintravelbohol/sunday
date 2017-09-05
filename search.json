@@ -6,7 +6,7 @@
     {
       "title"    : "{{ post.title }}",
       "href"     : "{{ post.url }}",
-      "img"      : "{{ post.url | remove: '/' }}",
+      "img"      : "{% if post.image-cat %}/{{ post.image-cat }}{% else %}{{ post.url | remove: '/' }}{% endif %}",
       "dated"     : "{{ post.dated }}"
     }
     {% unless forloop.last %},{% endunless %}

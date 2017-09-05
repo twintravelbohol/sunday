@@ -18,7 +18,7 @@ layout: default
             {% include social-share.html %}
             {% if page.image %}
             <figure class='img {% if page.hl-desc %}highlights-img{% endif %}'>
-               <img src="/assets/img{{ page.url }}.jpg">
+               <img src="/assets/img{% if page.image-cat %}/{{ page.image-cat }}{% else %}{{ page.url }}{% endif %}.jpg">
                
                {% if page.hl-desc %}
                <p class='highlights'>{% if page.hl-title %}<span class='hl-title'>{{ page.hl-title }}</span>{% endif %}<span class='hl-desc'> {{ page.hl-desc }}</span></p>

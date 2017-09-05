@@ -5,12 +5,12 @@ title: Bohol Sunday News
 
 <section class='headlines'>
    <section class='headlines-container'>
-      {% for post in site.posts  limit:5 %}
+      {% for post in site.posts  limit:8 %}
       {% if post.category != 'editorial' and post.category != 'opinions' %}
       {% if post.image %}
       <a class='article' href='{{ post.url }}'>
          <figure class='img'>
-            <img src="/assets/img{% if post.image %}{{ post.url }}.jpg{% else %}/no-prev.jpg{% endif %}">
+            <img src="/assets/img{% if post.image %}{% if post.image-cat %}/{{ post.image-cat }}{% else %}{{ post.url }}{% endif %}.jpg{% else %}/no-prev.jpg{% endif %}">
          </figure>
          <h2 class='title'>{{ post.title }}</h2>
       </a>
@@ -24,7 +24,7 @@ title: Bohol Sunday News
    <section class='main-content-container'>
       <section class='articles'>
          <h4 class='box-title'>News right now</h4>
-         {% for post in site.posts %}
+         {% for post in site.posts limit:20 %}
          {% if post.category != 'editorial' and post.category != 'opinions' %}
          <article class='article'>
             <figure class='img'>

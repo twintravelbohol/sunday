@@ -3,6 +3,7 @@ layout: post
 title: 'Bohol Poll 2017 results: not all cause for celebration'
 category: opinions
 image: true
+image-cat: 'the-agora'
 dated: August 20 - 26, 2017
 ---
 

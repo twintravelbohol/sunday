@@ -3,6 +3,7 @@ layout: post
 title: 'Be angry but do not sin'
 category: opinions
 image: true
+image-cat: 'word-on-fire'
 dated: August 20 - 26, 2017
 ---
 

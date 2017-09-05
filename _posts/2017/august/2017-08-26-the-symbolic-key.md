@@ -3,6 +3,7 @@ layout: post
 title: 'The symbolic key'
 category: opinions
 image: true
+image-cat: 'sunday-reflection'
 dated: August 20 - 26, 2017
 ---
 

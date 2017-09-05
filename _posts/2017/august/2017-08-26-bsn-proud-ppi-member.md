@@ -3,6 +3,7 @@ layout: post
 title: 'BSN: Proud PPI member'
 category: opinions
 image: true
+image-cat: 'res-ipsa-loquitur'
 dated: August 20 - 26, 2017
 ---
 

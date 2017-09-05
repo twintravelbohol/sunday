@@ -3,6 +3,7 @@ layout: post
 title: 'Half-empty or half-full'
 category: opinions
 image: true
+image-cat: 'the-kernel'
 dated: August 20 - 26, 2017
 ---
 
