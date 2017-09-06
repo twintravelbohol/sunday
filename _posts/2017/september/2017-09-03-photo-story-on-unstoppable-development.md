@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Photo story on unstappable development'
+title: 'Photo story on unstoppable development'
 category: top-stories
 image: true
 hl-title: 'UNSTOPPABLE DEVELOPMENT.'
