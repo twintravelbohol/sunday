@@ -5,7 +5,8 @@ title: Bohol Sunday News
 
 <section class='headlines'>
    <section class='headlines-container'>
-      {% for post in site.posts  limit:8 %}
+      {% for post in site.posts  limit:5 %}
+      {% if post.archive != true %}
       {% if post.category != 'editorial' and post.category != 'opinions' %}
       {% if post.image %}
       <a class='article' href='{{ post.url }}'>
@@ -14,6 +15,7 @@ title: Bohol Sunday News
          </figure>
          <h2 class='title'>{{ post.title }}</h2>
       </a>
+      {% endif %}
       {% endif %}
       {% endif %}
       {% endfor %}
@@ -25,6 +27,7 @@ title: Bohol Sunday News
       <section class='articles'>
          <h4 class='box-title'>News right now</h4>
          {% for post in site.posts limit:20 %}
+         {% if post.archive != true %}
          {% if post.category != 'editorial' and post.category != 'opinions' %}
          <article class='article'>
             <figure class='img'>
@@ -37,10 +40,11 @@ title: Bohol Sunday News
                   <span class='author'>{{ site.data.settings.title }}</span>
                   <span class='date'>{{ post.dated }}</span>
                </div>
-               <p class='description'>{{ post.content | truncatewords:14 | remove: "<p>" | remove: "</p>" }}</p>
+               <p class='description'>{% if post.hl-desc %}{% if post.hl-title %}{{ post.hl-title }} {{ post.hl-desc | truncate:75 }}{% else %}{{ post.hl-desc | truncate:110 }}{% endif %}{{ post.hl-desc | truncate:50 }}{% else %}{{ post.content | truncate:110 | remove: "<p>" | remove: "</p>" }}{% endif %}</p>
                <a class='read-more' href='{{ site.url }}{{ post.url }}'>Read more</a>
             </div>
          </article>
+         {% endif %}
          {% endif %}
          {% endfor %}
       </section>
@@ -51,6 +55,7 @@ title: Bohol Sunday News
             <h4 class='box-title'>Opinions</h4>
             <section class='article-list'>
                {% for post in site.posts %}
+               {% if post.archive != true %}
                {% if post.category == 'opinions' %}
                <a class='article' href='{{ post.url }}'>
                   <figure class='img'>
@@ -62,6 +67,7 @@ title: Bohol Sunday News
                   </div>
                </a>
                {% endif %}
+               {% endif %}
                {% endfor %}
             </section>
          </section> 
@@ -70,6 +76,7 @@ title: Bohol Sunday News
             <h4 class='box-title'>Editorial</h4>
             <section class='article-list'>
                {% for post in site.posts %}
+               {% if post.archive != true %}
                {% if post.category == 'editorial' %}
                <a class='article' href='{{ post.url }}'>
                   <figure class='img'>
@@ -80,6 +87,7 @@ title: Bohol Sunday News
                      <span class='date'>{{ post.dated }}</span>
                   </div>
                </a>
+               {% endif %}
                {% endif %}
                {% endfor %}
             </section>
