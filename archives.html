@@ -3,22 +3,38 @@ layout: default
 title: Archives
 ---
 
-<section class='archives'>
-   <section class='archives-container'>
-      <header class='archives-header'>
+<section class='category'>
+   <section class='category-container'>
+      
+      <header class='category-header'>
          <h1 class='title'>{{ page.title }}</h1>
       </header>
       
-      <section class='archives-body'>         
-         {% for post in site.posts %} 
-         {% if post.archive %}
-         <section class='articles'>
-            <article class='article'>
-               <p class='post'><a class='title' href='{{ post.url }}'>{{ post.title }}</a><span class='cat'>{{ post.category | replace: '-', ' ' | capitalize }}</span><span class='date'>{{ post.dated }}</span></p>
-            </article>
+      <section class='category-body archives-body'>         
+         <section class='articles archives-articles'>
+            {% for post in site.posts %} 
+               {% if forloop.first %}
+                  <section class='article'>
+                     <h4 class='title'>News Title</h4>
+                     <h4 class='cat'>Categories</h4>
+                     <h4 class='date'>Date Published</h4>   
+                  </section>
+               {% else %}            
+                  {% if post.archive %}
+                  <p class='article'>
+                     <a class='title' href='{{ post.url }}'>{{ post.title }}</a>
+                     <span class='cat'>{{ post.category | replace: '-', ' ' | capitalize }}</span>
+                     <span class='date'>{{ post.dated }}</span>
+                  </p>
+                  {% endif %}
+               {% endif %}
+            {% endfor %}    
          </section>
-         {% endif %}
-         {% endfor %}
+
+         <section class='sidebar'>
+            {% include fb-likebox.html %}
+         </section>   
+         
       </section>
    </section>
 </section>
