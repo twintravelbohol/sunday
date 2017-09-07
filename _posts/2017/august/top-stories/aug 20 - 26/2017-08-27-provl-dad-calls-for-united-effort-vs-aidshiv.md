@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Prov’l dad calls for unitede ffort vs.AIDS/HIV'
+title: 'Prov’l dad calls for unitede effort vs.AIDS/HIV'
 category: top-stories
 image: true
 archive: true
