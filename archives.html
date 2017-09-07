@@ -1,0 +1,32 @@
+---
+layout: default
+title: Archives
+---
+
+<section class='archives'>
+   <section class='archives-container'>
+      <header class='archives-header'>
+         <h1 class='title'>{{ page.title }}</h1>
+      </header>
+      
+      <section class='archives-body'>
+         {% for post in site.posts limit:2 %} 
+         <section class='articles-wrapper'>
+            <section class='articles-header'>
+               <h3>{{ post.dated }}</h3>               
+            </section>
+            <section class='articles-container'>
+               {% assign cat_list = site.categories %}
+               {% for cat in cat_list %}
+               {% assign x = cat[0] | replace: '-', ' ' | capitalize %}
+               <section class='articles'>
+                  <h5 class='articles-cat'>{{ x }}</h5>
+                  <a class='article' href='/'></a>
+               </section>      
+               {% endfor %}
+            </section>
+         </section>
+         {% endfor %}
+      </section>
+   </section>
+</section>

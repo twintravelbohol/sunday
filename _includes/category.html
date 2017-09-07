@@ -8,6 +8,7 @@
       <section class='category-body'>
          <section class='articles'>
             {% for post in site.posts %}
+            {% if post.archive != true %}
             {% assign cat-title = page.title | downcase | replace: ' ', '-' %}
             {% if post.category == cat-title %}
             <article class='article'>
@@ -22,10 +23,11 @@
                      <span class='author'>{{ site.data.settings.title }}</span>
                      <span class='date'>{{ post.dated }}</span>
                   </div>
-                  <p class='description'>{{ post.content | truncatewords:13 | remove: "<p>" | remove: "</p>" }}</p>
+                  <p class='description'>{% if post.hl-desc %}{% if post.hl-title %}{{ post.hl-title }} {{ post.hl-desc | truncate:75 }}{% else %}{{ post.hl-desc | truncate:110 }}{% endif %}{{ post.hl-desc | truncate:50 }}{% else %}{{ post.content | truncate:110 | remove: "<p>" | remove: "</p>" }}{% endif %}</p>
                   <a class='read-more' href='{{ site.url }}{{ post.url }}'>Read more</a>
                </div>
             </article>
+            {% endif %}
             {% endif %}
             {% endfor %}
          </section>

@@ -19,6 +19,7 @@ menu:
  - {name: 'Top Stories', url: 'top-stories'}
  - {name: 'Editorial', url: 'editorial'}
  - {name: 'Opinions', url: 'opinions'}
+ - {name: 'Archives', url: 'archives'}
 
 email:
  - {name: 'yahoo', mail: 'boholsundaynews@yahoo.com' }
