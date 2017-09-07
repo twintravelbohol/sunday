@@ -9,23 +9,15 @@ title: Archives
          <h1 class='title'>{{ page.title }}</h1>
       </header>
       
-      <section class='archives-body'>
-         {% for post in site.posts limit:2 %} 
-         <section class='articles-wrapper'>
-            <section class='articles-header'>
-               <h3>{{ post.dated }}</h3>               
-            </section>
-            <section class='articles-container'>
-               {% assign cat_list = site.categories %}
-               {% for cat in cat_list %}
-               {% assign x = cat[0] | replace: '-', ' ' | capitalize %}
-               <section class='articles'>
-                  <h5 class='articles-cat'>{{ x }}</h5>
-                  <a class='article' href='/'></a>
-               </section>      
-               {% endfor %}
-            </section>
+      <section class='archives-body'>         
+         {% for post in site.posts %} 
+         {% if post.archive %}
+         <section class='articles'>
+            <article class='article'>
+               <p class='post'><a class='title' href='{{ post.url }}'>{{ post.title }}</a><span class='cat'>{{ post.category | replace: '-', ' ' | capitalize }}</span><span class='date'>{{ post.dated }}</span></p>
+            </article>
          </section>
+         {% endif %}
          {% endfor %}
       </section>
    </section>
