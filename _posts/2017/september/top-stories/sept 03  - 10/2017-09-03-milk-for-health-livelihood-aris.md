@@ -3,6 +3,7 @@ layout: post
 title: 'Milk for health, livelihood-aris'
 category: top-stories
 image: true
+archive: true
 dated: September 03 - 10, 2017
 ---
 

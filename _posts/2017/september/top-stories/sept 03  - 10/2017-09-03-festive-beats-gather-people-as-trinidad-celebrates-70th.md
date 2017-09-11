@@ -3,6 +3,7 @@ layout: post
 title: 'Festive beats gather people as Trinidad celebrates 70th'
 category: top-stories
 image: true
+archive: true
 hl-title: 'TRINIDAD’S FOUNDING ANNIVERSARY.'
 hl-desc: 'Photo above shows the mardi gras during the founding anniversary of Trinidad last Friday as hundreds of on-lookers witnessed the affair. (Photo by PIA-Bohol)'
 dated: September 03 - 10, 2017
