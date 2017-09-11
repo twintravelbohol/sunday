@@ -218,6 +218,7 @@
    .prev-page
       padding-right: .5rem
       float: left
+      text-align: left
          
       &:before
          content: 'Previous article'    
@@ -335,12 +336,15 @@
          .title
             @extend .large
             +display(block)
+            font-size: 1.7rem
 
          .extra
+            line-height: 2
             font-size: .88rem
-            margin: .1rem 0px .5rem
+            margin: .1rem 0px .35rem
 
             > *
+               line-height: 1.5
                margin-right: .3rem
 
             .cat
@@ -397,7 +401,7 @@
             float: left
             width: 500px
             padding-left: .7rem
-
+               
             &:hover
                .title
                   color: darken($color-alt, 12)
@@ -428,22 +432,22 @@
             
 
    @media screen and (min-width: 1200px)
-      width: 795px
+      width: 790px
 
       .article
          .img
             +size(265px 200px)
 
          .text
-            width: 530px
+            width: 525px
 
             .title
                font-size: 2rem
-               height: 76px
+               height: 72px
 
             .description
                +display(block)
-               margin-bottom: .8rem
+               margin-bottom: .7rem
 
             .read-more
                +display(inline-block)
@@ -465,6 +469,8 @@
             @extend .gigantic
             text-transform: uppercase
             letter-spacing: 2px
+            margin-bottom: 0px
+            font-size: 3rem
 
       .category-body
          padding: 1rem
@@ -476,6 +482,10 @@
                   
    @media screen and (min-width: 768px)
       .category-container
+         .category-header
+            .title
+               font-size: 5rem
+               
          .category-body       
             .articles
                .article
@@ -513,3 +523,32 @@
                .article
                   .text
                      width: 520px
+                     
+#search-results
+   .article      
+      border-bottom: 1px dotted black
+      margin-bottom: .6rem
+      padding: .6rem 0px 1.1rem
+         
+      &:last-of-type
+         border-bottom: 0px
+         margin-bottom: 0px
+         
+      .text
+         width: 100%
+         padding-left: 0px
+         
+         .title
+            height: auto
+            
+#search-results-header
+   padding: 1rem
+   
+   .title
+      @extend .huge
+      text-transform: capitalize
+      text-align: left
+      margin-bottom: 0px
+      
+      &:before
+         content: 'News search: '
