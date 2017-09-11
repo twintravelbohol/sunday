@@ -1,0 +1,51 @@
+---
+layout: default
+title: Search
+---
+
+<section class='category'>
+   <section class='category-container'>
+      
+      <header class='category-header' {% if page.title == "Search" %}id='search-results-header'{% endif %}>
+         <h1 class='title' id='title'></h1>
+      </header>
+      
+      <section class='category-body'>
+         <section class='articles' id="search-results">          
+         </section>
+
+         <section class='sidebar'>
+            {% include fb-likebox.html %}
+         </section>
+      </section>
+   </section>
+</section>
+
+<script>
+  window.store = {
+    {% for post in site.posts %}
+      {% if post.hl-desc %}      
+         "{{ post.url | slugify }}": {
+           "title": "{{ post.title | xml_escape }}",
+           "author": "{{ site.data.settings.title }}",
+           "category": "{{ post.category | xml_escape }}",
+           "dated": "{{ post.dated }}",
+           "content": {{ post.hl-desc | strip_html | strip_newlines | jsonify }},
+           "url": "{{ post.url | xml_escape }}"
+         }        
+      {% else %}
+         "{{ post.url | slugify }}": {
+           "title": "{{ post.title | xml_escape }}",
+           "author": "{{ site.data.settings.title }}",
+           "category": "{{ post.category | xml_escape }}",
+           "dated": "{{ post.dated }}",
+           "content": {{ post.content | strip_html | strip_newlines | jsonify }},
+           "url": "{{ post.url | xml_escape }}"
+         }    
+      {% endif %}
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+</script>
+<script src="/assets/js/lunr.min.js"></script>
+<script src="/assets/js/search.js"></script>
