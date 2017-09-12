@@ -4,6 +4,7 @@ title: 'Finally, BSN has a website'
 category: opinions
 image: true
 image-cat: 'res-ipsa-loquitur'
+archive: true
 dated: September 03 - 10, 2017
 ---
 

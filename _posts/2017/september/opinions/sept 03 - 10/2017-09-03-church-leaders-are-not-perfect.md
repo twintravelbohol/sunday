@@ -4,6 +4,7 @@ title: 'Church leaders are not perfect'
 category: opinions
 image: true
 image-cat: 'sunday-reflection'
+archive: true
 dated: September 03 - 10, 2017
 ---
 

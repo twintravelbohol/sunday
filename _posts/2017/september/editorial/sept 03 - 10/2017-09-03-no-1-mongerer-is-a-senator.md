@@ -3,6 +3,7 @@ layout: post
 title: 'No. 1 mongerer is a Senator'
 category: editorial
 image: true
+archive: true
 dated: September 03 - 10, 2017
 ---
 

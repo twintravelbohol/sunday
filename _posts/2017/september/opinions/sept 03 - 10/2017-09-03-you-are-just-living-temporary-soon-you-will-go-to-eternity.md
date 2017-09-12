@@ -4,6 +4,7 @@ title: 'You are just living temporary, soon you will go to eternity'
 category: opinions
 image: true
 image-cat: 'word-on-fire'
+archive: true
 dated: September 03 - 10, 2017
 ---
 
