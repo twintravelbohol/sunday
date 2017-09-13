@@ -5,9 +5,8 @@ title: Bohol Sunday News
 
 <section class='headlines'>
    <section class='headlines-container'>
-      {% for post in site.posts  limit:2 %}
+      {% for post in site.categories.headlines  limit:2 %}
       {% if post.archive != true %}
-      {% if post.category != 'editorial' and post.category != 'opinions' %}
       {% if post.image %}
       <a class='article' href='{{ post.url }}'>
          <figure class='img'>
@@ -15,7 +14,6 @@ title: Bohol Sunday News
          </figure>
          <h2 class='title'>{{ post.title }}</h2>
       </a>
-      {% endif %}
       {% endif %}
       {% endif %}
       {% endfor %}
@@ -28,10 +26,10 @@ title: Bohol Sunday News
          <h4 class='box-title'>News right now</h4>
          {% for post in site.posts limit:20 %}
          {% if post.archive != true %}
-         {% if post.category != 'editorial' and post.category != 'opinions' %}
+         {% if post.category != 'headlines' %}
          <article class='article'>
             <figure class='img'>
-               <img src="/assets/img{% if post.image %}{{ post.url }}.jpg{% else %}/no-prev.jpg{% endif %}">
+               <img src="/assets/img{% if post.image %}{% if post.image-cat %}/{{ post.image-cat }}{% else %}{{ post.url }}{% endif %}.jpg{% else %}/no-prev.jpg{% endif %}">
             </figure>
             <div class='text'>
                <a class='title' href='{{ site.url }}{{ post.url }}'>{{ post.title }}</a>

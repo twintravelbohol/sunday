@@ -2,6 +2,7 @@
 layout: post
 title: 'Dauis-Panglao Island moved'
 category: headlines
+archive: true
 dated: September 03 - 10, 2017
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: '5-year validity on driver’s licenses'
 category: headlines
+archive: true
 dated: September 03 - 10, 2017
 ---
 

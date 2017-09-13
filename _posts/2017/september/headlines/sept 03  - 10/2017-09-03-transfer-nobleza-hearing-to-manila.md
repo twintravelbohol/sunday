@@ -2,6 +2,7 @@
 layout: post
 title: 'Transfer Nobleza hearing to Manila'
 category: headlines
+archive: true
 dated: September 03 - 10, 2017
 ---
 
