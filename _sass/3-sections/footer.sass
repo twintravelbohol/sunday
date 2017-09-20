@@ -23,6 +23,7 @@
       .lower-footer
          background-color: $color-alt
          padding: .8rem 1rem
+         text-align: center
          +clearfix()
          margin-top: 2rem
             
@@ -32,16 +33,18 @@
             
          .copyright
             @extend .small
+            margin-bottom: .3rem
          
-         .nav            
-            float: right
-            
+         .nav                        
             .nav-menu
                @extend .nav-menu-item
                
                .menu-item
                   @extend .small
                   margin-right: .7rem
+                     
+                  &.archives
+                     +display(inline-block)
                   
                   &:last-of-type
                      margin-right: 0px
@@ -60,6 +63,20 @@
             .desc
                margin: 0px auto 1rem
                max-width: 768px
+               
+@media screen and (min-width: 500px)
+   .site-footer
+      .footer-container         
+         .lower-footer      
+            .copyright
+               margin-bottom: 0px
+               
+            .nav            
+               float: right
+               
+               .nav-menu               
+                  .menu-item.archives
+                     +display(none)
 
 @media screen and (min-width: 650px)
    .site-footer
