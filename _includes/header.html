@@ -20,7 +20,8 @@
    <meta property="og:description" content="{{ page.content | remove: '<p>' | remove: '</p>' | truncatewords:20 }}" />
    <meta property="og:image" content="{{ site.url }}/assets/img/{{ page.title | downcase | replace: ' ', '-'}}.jpg" />
    {% endif %}   
-   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>   
+   <script src='/assets/js/function.js'></script>
    {% include random-post.html %}  
    
 </head>
