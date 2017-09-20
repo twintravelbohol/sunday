@@ -1,0 +1,92 @@
+#faq-body
+   padding-top: 1.5rem
+   padding-bottom: 1.5rem
+   
+   .faq-articles
+      article
+         overflow: hidden
+         padding: 0px .4rem
+         margin-bottom: 1.5rem
+         cursor: pointer
+         
+         &:last-of-type
+            margin-bottom: 0px
+         
+         &.faq-active
+            .question
+               +transition-delay(.2s)
+               margin-bottom: .8rem
+                  
+               .svg                  
+                  box-shadow: -2px 1px 3px 2px rgba($border-color, 1)
+
+                  svg
+                     +size(40px)
+
+                     .q-bg
+                        fill: $color-alt
+
+            .answer
+               opacity: 1
+               max-height: 500px
+         
+         .question
+            +transition(all .4s ease-in-out 0s)
+            line-height: 1
+            margin-bottom: 0px
+            +clearfix()
+         
+            .svg
+               float: left
+               border-radius: 4px
+               box-shadow: -2px 1px 2px 1px rgba($border-color, 1)
+               
+               svg
+                  +size(40px)
+                  fill: $color-alt
+                  +transition(all .4s ease-in-out 0s)
+                     
+                  .q-bg
+                     fill: rgba($color-alt, .5)
+                     
+            .text
+               float: left
+               line-height: 1.5
+               margin-left: .5rem
+               width: 80%
+               
+         .answer
+            +transition(all .8s ease-in-out 0s)
+            opacity: 0
+            max-height: 0px
+            margin-left: 48px
+            padding-right: .5rem
+               
+   @media screen and (min-width: 768px)
+      .faq-articles
+         article
+            &:last-of-type
+               margin-bottom: 0px
+
+            &.faq-active
+               .question
+                  margin-bottom: .4rem
+                     
+                  .text
+                     line-height: 1.7
+                  
+   @media screen and (min-width: 992px)
+      .faq-articles
+         article
+            &.faq-active
+               .question
+                  .text
+                     line-height: 1.2
+      
+   @media screen and (min-width: 1200px)
+      .faq-articles
+         article
+            &.faq-active
+               .question
+                  .text
+                     line-height: 1.7

@@ -1,125 +1,129 @@
-.archives-articles  
-   float: none
-   
-   .article
-      margin-bottom: 3px
-      padding: 9px 7px
-      +position(relative)
-      border-bottom: 0px
+#archives-body
+   .archives-articles  
+      float: none
 
-      > span, a
-         +display(inline-block)
-
-      .title     
-         +display(block)
-         margin-bottom: .3rem
-         +transition(.4s all ease-in-out 0s)  
-         font-weight: 600
-
-         ~ *
-            width: 49%
-
-   section.article
-      +display(none)
-
-   p.article       
-      &:nth-child(even)
-         background-color: lighten(#ddd, 9)
-
-      &:last-of-type
-         margin-bottom: 0px
-         border-bottom: 3px lighten(#ddd, 9) solid
-      
-      .title         
-         color: lighten(#000, 10)
-         
-         ~ *
-            +position(relative)
-            font-size: .9rem
-            padding-left: 1.7rem  
-            
-            &:before
-               +position(absolute, 0px null null 5px)
-            
-         
-      .cat:before
-         content: url('/assets/img/category.png')
-      
-      .date:before
-         content: url('/assets/img/calendar.png')
-
-   @media screen and (min-width: 768px) 
-      float: left
-      
       .article
-         padding: 8px 7px 7px 
-         
-         .title
-            width: 405px   
-            margin-bottom: 0px
+         margin-bottom: 3px
+         padding: 9px 7px
+         +position(relative)
+         border-bottom: 0px
+
+         > span, a
             +display(inline-block)
+
+         .title     
+            +display(block)
+            margin-bottom: .3rem
+            +transition(.4s all ease-in-out 0s)  
+            font-weight: 600
 
             ~ *
-               text-align: center
-               width: 49.5%
+               width: 49%
 
-         .cat
-            width: 110px
-            
-            &:before
-               +display(none)
-
-         .date
-            width: 150px   
-            
-            &:before
-               +display(none)
-         
       section.article
-         +display(block)
-         
-         > h4
-            +display(inline-block)
-            margin-bottom: .5rem
-               
-      p.article   
-         .title ~ *
-            padding-left: 0px
-            
-         &:before
-            content: ''
-            width: 0px
-            background-color: transparent
-            +position(absolute, 0px null 0px 0px)    
-            +transition(.2s all ease-in-out 0s)
-         
-         &:hover
-            &:before
-               width: 6px
-               background-color: $color-alt
+         +display(none)
+
+      p.article       
+         &:nth-child(even)
+            background-color: lighten(#ddd, 9)
+
+         &:last-of-type
+            margin-bottom: 0px
+            border-bottom: 3px lighten(#ddd, 9) solid
+
+         .title         
+            color: lighten(#000, 10)
+
+            ~ *
+               +position(relative)
+               font-size: .9rem
+               padding-left: 1.7rem  
+
+               &:before
+                  +position(absolute, 0px null null 5px)
+
+
+         .cat:before
+            content: url('/assets/img/category.png')
+
+         .date:before
+            content: url('/assets/img/calendar.png')
+
+   @media screen and (min-width: 768px)       
+      .archives-articles  
+         float: left
+
+         .article
+            padding: 8px 7px 7px 
 
             .title
-               padding-left: 6px
+               width: 405px   
+               margin-bottom: 0px
+               +display(inline-block)
 
-   @media screen and (min-width: 992px) 
-      .article
-         .title
-            width: 340px           
+               ~ *
+                  text-align: center
+                  width: 49.5%
 
-         .cat
-            width: 100px
+            .cat
+               width: 110px
 
-         .date
-            width: 140px  
+               &:before
+                  +display(none)
 
-   @media screen and (min-width: 1200px)            
-      .article
-         .title
-            width: 505px           
+            .date
+               width: 150px   
 
-         .cat
-            width: 110px
+               &:before
+                  +display(none)
 
-         .date
-            width: 150px   
+         section.article
+            +display(block)
+
+            > h4
+               +display(inline-block)
+               margin-bottom: .5rem
+
+         p.article   
+            .title ~ *
+               padding-left: 0px
+
+            &:before
+               content: ''
+               width: 0px
+               background-color: transparent
+               +position(absolute, 0px null 0px 0px)    
+               +transition(.2s all ease-in-out 0s)
+
+            &:hover
+               &:before
+                  width: 6px
+                  background-color: $color-alt
+
+               .title
+                  padding-left: 6px
+
+   @media screen and (min-width: 992px)   
+      .archives-articles  
+         .article
+            .title
+               width: 340px           
+
+            .cat
+               width: 100px
+
+            .date
+               width: 140px  
+
+   @media screen and (min-width: 1200px)    
+      .archives-articles            
+         .article
+            .title
+               width: 505px           
+
+            .cat
+               width: 110px
+
+            .date
+               width: 150px   
 
