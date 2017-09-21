@@ -3,6 +3,7 @@ layout: post
 title: 'Toying with Evasco'
 category: opinions
 image: true
+archive: true
 image-cat: 'res-ipsa-loquitur'
 dated: September 10 - 16, 2017
 ---

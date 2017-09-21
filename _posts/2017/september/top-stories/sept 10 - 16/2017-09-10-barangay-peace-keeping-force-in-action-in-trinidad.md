@@ -3,6 +3,7 @@ layout: post
 title: 'Barangay peace-keeping force in action in Trinidad'
 category: top-stories
 image: true
+archive: true
 dated: September 10 - 16, 2017
 ---
 

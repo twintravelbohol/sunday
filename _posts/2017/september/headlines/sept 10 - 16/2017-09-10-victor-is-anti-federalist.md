@@ -3,6 +3,7 @@ layout: post
 title: 'Victor is anti-federalist'
 category: headlines
 image: true
+archive: true
 dated: September 10 - 16, 2017
 ---
 

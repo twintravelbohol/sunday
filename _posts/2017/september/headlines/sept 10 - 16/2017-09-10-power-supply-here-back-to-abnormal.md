@@ -2,6 +2,7 @@
 layout: post
 title: 'Power supply here back to abnormal'
 category: headlines
+archive: true
 dated: September 10 - 16, 2017
 ---
 

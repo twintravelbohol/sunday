@@ -52,9 +52,7 @@ title: Bohol Sunday News
          <section class="more-post more-post-sidebar">
             <h4 class='box-title'>Opinions</h4>
             <section class='article-list'>
-               {% for post in site.posts %}
-               {% if post.archive != true %}
-               {% if post.category == 'opinions' %}
+               {% for post in site.categories.opinions limit:8 %}
                <a class='article' href='{{ post.url }}'>
                   <figure class='img'>
                      <img src='/assets/img/post1.jpg'>
@@ -64,8 +62,6 @@ title: Bohol Sunday News
                      <span class='date'>{{ post.dated }}</span>
                   </div>
                </a>
-               {% endif %}
-               {% endif %}
                {% endfor %}
             </section>
          </section> 
@@ -73,9 +69,7 @@ title: Bohol Sunday News
          <section class="more-post more-post-sidebar">
             <h4 class='box-title'>Editorial</h4>
             <section class='article-list'>
-               {% for post in site.posts %}
-               {% if post.archive != true %}
-               {% if post.category == 'editorial' %}
+               {% for post in site.categories.editorial limit:8 %}
                <a class='article' href='{{ post.url }}'>
                   <figure class='img'>
                      <img src='/assets/img/post1.jpg'>
@@ -85,8 +79,6 @@ title: Bohol Sunday News
                      <span class='date'>{{ post.dated }}</span>
                   </div>
                </a>
-               {% endif %}
-               {% endif %}
                {% endfor %}
             </section>
          </section>

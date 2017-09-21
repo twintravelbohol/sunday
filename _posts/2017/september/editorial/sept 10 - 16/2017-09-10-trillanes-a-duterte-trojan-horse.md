@@ -2,6 +2,7 @@
 layout: post
 title: 'Trillanes, a Duterte trojan horse?'
 category: editorial
+archive: true
 dated: September 10 - 16, 2017
 ---
 

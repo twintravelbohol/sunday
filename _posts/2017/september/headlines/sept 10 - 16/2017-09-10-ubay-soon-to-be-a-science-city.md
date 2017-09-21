@@ -3,6 +3,7 @@ layout: post
 title: 'Ubay soon to be a Science City'
 category: headlines
 image: true
+archive: true
 dated: September 10 - 16, 2017
 ---
 

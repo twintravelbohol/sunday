@@ -3,6 +3,7 @@ layout: post
 title: 'Capitalists and communists'
 category: opinions
 image: true
+archive: true
 image-cat: 'the-kernel'
 dated: September 10 - 16, 2017
 ---

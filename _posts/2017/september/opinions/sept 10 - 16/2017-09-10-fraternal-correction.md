@@ -3,6 +3,7 @@ layout: post
 title: 'Fraternal correction'
 category: opinions
 image: true
+archive: true
 image-cat: 'sunday-reflection'
 dated: September 10 - 16, 2017
 ---
