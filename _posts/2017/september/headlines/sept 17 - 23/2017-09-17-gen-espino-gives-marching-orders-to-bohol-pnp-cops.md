@@ -3,6 +3,7 @@ layout: post
 title: 'Gen. Espino gives marching orders to Bohol PNP cops'
 category: headlines
 image: true
+archive: true
 dated: September 17 - 23, 2017
 ---
 

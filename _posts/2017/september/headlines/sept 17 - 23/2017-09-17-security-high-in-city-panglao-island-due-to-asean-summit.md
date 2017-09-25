@@ -3,6 +3,7 @@ layout: post
 title: 'Security high in city, Panglao island due to ASEAN summit'
 category: headlines
 image: true
+archive: true
 dated: September 17 - 23, 2017
 ---
 

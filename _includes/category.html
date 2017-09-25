@@ -23,7 +23,7 @@
                      <span class='author'>{{ site.data.settings.title }}</span>
                      <span class='date'>{{ post.dated }}</span>
                   </div>
-                  <p class='description'>{% if post.hl-desc %}{% if post.hl-title %}{{ post.hl-title }} {{ post.hl-desc | truncate:75 }}{% else %}{{ post.hl-desc | truncate:110 }}{% endif %}{{ post.hl-desc | truncate:50 }}{% else %}{{ post.content | truncate:110 | remove: "<p>" | remove: "</p>" }}{% endif %}</p>
+                  <p class='description'>{% if post.hl-desc %}{% if post.hl-title %}{{ post.hl-title }} {{ post.hl-desc | truncate:70 }}{% else %}{{ post.hl-desc | truncate:105 }}{% endif %}{{ post.hl-desc | truncate:50 }}{% else %}{{ post.content | truncate:105 | remove: "<p>" | remove: "</p>" }}{% endif %}</p>
                   <a class='read-more' href='{{ site.url }}{{ post.url }}'>Read more</a>
                </div>
             </article>
