@@ -3,23 +3,23 @@
 <head>
    <title>{{ page.title }}{% if page.layout == 'default' and page.title != site.data.settings.title %} · {{ site.data.settings.title }}{% endif %}{% if page.layout == 'post' %} · {{ site.data.settings.title }}{% endif %}</title>
    <meta charset='utf-8'>
-   <meta name='description' content="{% if page.desc %} · {{ page.desc }} {% else %}{{ site.data.settings.desc | strip_html | truncatewords: 30, '' }}{% endif %}{% if page.layout == 'post' %} · Bohol Latest News{% endif %}">
-   <meta name='keywords' content='{{ page.meta }}'>
-   <meta name='author' content='{{site.data.settings.owner}}'>
-   <meta name='dcterms.rightHolder' content='{{site.url}}'>
-   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-   <link rel='cannonical' href="{{site.url}}{{page.url | replace: 'index.html' , ''}}">
-   <link rel='stylesheet' href='/assets/css/main.css' type='text/css'>
-   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Source+Sans+Pro:300,400" rel="stylesheet">
-   <link rel='shortcut icon' href='/favicon.ico'> 
-   
-   {% if page.layout == 'post' %}
+   {% if page.layout != 'post' %}
+   <meta name='description' content="{% if page.desc %} · {{ page.desc }} {% else %}{{ site.data.settings.desc | strip_html | truncatewords: 30, '' }}{% endif %}{% if page.layout == 'post' %} · Bohol Latest News{% endif %}">   
+   {% else %}
    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
    <meta property="og:type" content="article" />
    <meta property="og:title" content="{{ page.title }}" />
    <meta property="og:description" content="{{ page.content | remove: '<p>' | remove: '</p>' | truncatewords:20 }}" />
-   <meta property="og:image" content="{{ site.url }}/assets/img/{{ page.title | downcase | replace: ' ', '-'}}.jpg" />
-   {% endif %}   
+   <meta property="og:image" content="{{ site.url }}/assets/img{% if page.image %}{% if page.image-cat %}/{{ page.image-cat }}{% else %}{{ page.url }}{% endif %}.jpg{% else %}/no-prev.jpg{% endif %}" />
+   {% endif %}    
+   <meta name='keywords' content='{{ page.meta }}'>
+   <meta name='author' content='{{site.data.settings.owner}}'>
+   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+   <meta name='dcterms.rightHolder' content='{{site.url}}'>
+   <link rel='cannonical' href="{{site.url}}{{page.url | replace: 'index.html' , ''}}">
+   <link rel='stylesheet' href='/assets/css/main.css' type='text/css'>
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Source+Sans+Pro:300,400" rel="stylesheet">
+   <link rel='shortcut icon' href='/favicon.ico'>   
    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>   
    <script src='/assets/js/function.js'></script>
    {% include random-post.html %}  

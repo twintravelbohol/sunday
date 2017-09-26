@@ -1,8 +1,8 @@
 title: Bohol Sunday News
 owner: Atty. Dandan A. Bantugan
 addess: Tagbilaran City, Bohol, Philippines
-email: attydandanbantugan@yahoo.com.ph
 desc: '<strong>BOHOL SUNDAY NEWS</strong> is a weekly newspaper based in Tagbilaran City, Bohol, Philippines. It is a sister publication of the <strong>BOHOL BALITA DAILY NEWS (BBDN)</strong> and the <strong>BOHOL NEWS TODAY (BNT)</strong>. This independent Boholano newspaper is dedicated to the freedom of the press, to protect the right to air grievances and seek redress from government. It welcomes press releases, articles, suggestions, comments and opinions and undertakes to publish the same subject to editorial policies and ethical standards of a balanced and truthful journalism.'
+fb: 'www.facebook.com/boholsundaynews1004/'
 map: ''
 
 mobile:
@@ -24,5 +24,12 @@ menu:
 email:
  - {name: 'yahoo', mail: 'boholsundaynews@yahoo.com' }
  - {name: 'gmail', mail: 'boholsundaynews@gmail.com' }
+ 
+faq:
+ - {question: 'Where is Bohol Sunday News B(SN) located?', answer: 'The business and editorial office <br>of the Bohol Sunday News is located at: <br>Mezzanine Floor, Manigque Building <br>M.H. delPilar Street, City of Tagbilaran <br><br>Tel Nos: (038) 412-3291 (PLDT); (038) 501-0491 (Globe)'}
+ - {question: 'How can I secure a copy of the Bohol Sunday News?', answer: 'If you have access to any news stands in Tagbilaran City, you can secure a copy of the B(SN). Otherwise, get a copy at the business address stated above or just call any of our landlines.'}
+ - {question: 'What is the frequency of the Bohol Sunday News?', answer: 'B(SN) is published every Sunday. It is a sister publication of the Bohol News Today (PNT) and the Bohol Balita Daily News (BBDN).'}
+ - {question: 'How can I send my press releases, letters, opinions and contributions to B(SN)?', answer: "Just send it to our e-mail boholsundaynews@yahoo.com or see our Contact Us page. <a href='/contacts'>Click here</a>"}
+ - {question: 'Is B(SN) a member of any media organization?', answer: 'Yes, B(SN) is a proud member of the Philippine Press Institute (PPI), a nationwide association of newspapers. It is also a member of the Bohol Tri-Media Association (BTMA) and the Association of Writers and Radio Announcers Foundation, Inc. (AWRAFI).'}
+ - {question: 'Do you have any Facebook page?', answer: "Yes, our Facebook page is at  <a href='www.facebook.com/boholsundaynews1004/' target='_blank'>www.facebook.com/boholsundaynews1004/</a>"}
 
-facebook: 'https://www.facebook.com/boholsundaynews1004/'
