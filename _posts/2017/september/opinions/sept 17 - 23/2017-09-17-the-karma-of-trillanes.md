@@ -4,6 +4,7 @@ title: 'The karma of Trillanes'
 category: opinions
 image: true
 image-cat: 'sundry'
+archive: true
 dated: September 17 - 23, 2017
 ---
 

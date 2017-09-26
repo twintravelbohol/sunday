@@ -12,24 +12,15 @@ title: FAQ
       
       <section id='faq-body' class='category-body'>
          <section class='articles faq-articles'>
-            <article class='faq-active'>
+            {% for faq in site.data.settings.faq %}
+            <article {% if forloop.first %}class='faq-active'{% endif %}>
                <h3 class='question'>
                   <span class='svg'>{% include icons/q.html %}</span>
-                  <span class='text'>Barangay peace-keeping force in action in Trinidad</span>
+                  <span class='text'>{{ faq.question }}</span>
                </h3>
-               <p class='answer'>
-                  BOHOL SUNDAY NEWS is a weekly newspaper based in Tagbilaran City, Bohol, Philippines. It is a sister publication of the BOHOL BALITA DAILY NEWS (BBDN) and the BOHOL NEWS TODAY (BNT). This independent Boholano newspaper is dedicated to the freedom of the press, to protect the right to air grievances and seek redress from government. It welcomes press releases, articles, suggestions, comments and opinions and undertakes to publish the same subject to editorial policies and ethical standards of a balanced and truthful journalism.
-               </p>
+               <p class='answer'>{{ faq.answer }}</p>
             </article>
-            <article>
-               <h3 class='question'>
-                  <span class='svg'>{% include icons/q.html %}</span>
-                  <span class='text'>Baba on attracting business to city</span>
-               </h3>
-               <p class='answer'>
-                  BOHOL SUNDAY NEWS is a weekly newspaper based in Tagbilaran City, Bohol, Philippines. It is a sister publication of the BOHOL BALITA DAILY NEWS (BBDN) and the BOHOL NEWS TODAY (BNT). This independent Boholano newspaper is dedicated to the freedom of the press, to protect the right to air grievances and seek redress from government. It welcomes press releases, articles, suggestions, comments and opinions and undertakes to publish the same subject to editorial policies and ethical standards of a balanced and truthful journalism.
-               </p>
-            </article>
+            {% endfor %}
          </section>               
          
          <section class='sidebar'>

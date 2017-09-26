@@ -4,6 +4,7 @@ title: 'Postponement of barangay polls and prohibition on spot reports'
 category: opinions
 image: true
 image-cat: 'the-agora'
+archive: true
 dated: September 17 - 23, 2017
 ---
 

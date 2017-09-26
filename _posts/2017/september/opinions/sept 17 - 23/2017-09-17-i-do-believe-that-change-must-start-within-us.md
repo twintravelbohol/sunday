@@ -4,6 +4,7 @@ title: 'I do believe that change must start within us'
 category: opinions
 image: true
 image-cat: 'word-on-fire'
+archive: true
 dated: September 17 - 23, 2017
 ---
 
