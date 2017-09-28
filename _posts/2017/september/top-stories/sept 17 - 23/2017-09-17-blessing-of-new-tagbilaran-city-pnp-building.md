@@ -3,6 +3,7 @@ layout: post
 title: 'Blessing of new Tagbilaran City PNP Building'
 category: top-stories
 image: true
+archive: true
 dated: September 17 - 23, 2017
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: 'New detention cells at Bohol District Jail'
 category: top-stories
 image: true
+archive: true
 dated: September 17 - 23, 2017
 ---
 

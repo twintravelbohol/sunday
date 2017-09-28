@@ -3,6 +3,7 @@ layout: post
 title: 'This is the way, the truth and the light'
 category: top-stories
 image: true
+archive: true
 dated: September 17 - 23, 2017
 ---
 
