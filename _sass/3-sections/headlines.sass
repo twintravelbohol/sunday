@@ -37,19 +37,13 @@
             +size(100% 250px)
 
             h2.title
-               font-size: 1.5rem     
-              
-         &:nth-child(2)
-            +size(49.6% 130px)
+               font-size: 1.5rem               
 
-            h2.title
-               font-size: 1rem            
-         
             ~ .article
-               +size(49.5% 130px)
-         
+               +size(100% 250px)
+
                h2.title
-                  font-size: 1rem
+                  font-size: 1.5rem
                   
 
                
@@ -66,23 +60,11 @@
                h2.title
                   font-size: 2rem
               
-            &:nth-child(2)
-               height: 160px
-
                ~ .article
-                  height: 160px
-                  
+                  +size(100% 330px)
 
-               
-@media screen and (min-width: 600px)
-   .headlines
-      .headlines-container
-         .article              
-            &:nth-child(2)
-               height: 205px
-
-               ~ .article
-                  height: 205px
+                  h2.title
+                     font-size: 2rem
                
 @media screen and (min-width: 768px)
    .headlines
@@ -98,17 +80,11 @@
                h2.title
                   font-size: 1.5rem
 
-            &:nth-child(2)
-               +size(373px 270px)
-               
-               h2.title
-                  font-size: 1.5rem
-
                ~ .article
-                  width: 247.8px
+                  +size(373px 270px)
 
                   .title
-                     font-size: 1.2rem
+                     font-size: 1.5rem
                
 @media screen and (min-width: 992px)
    .headlines
@@ -120,17 +96,11 @@
                h2.title
                   font-size: 2rem
 
-            &:nth-child(2)
-               +size(488px 320px)
-               
-               h2.title
-                  font-size: 2rem
-
                ~ .article
-                  width: 324.5px
+                  +size(488px 320px)
 
                   .title
-                     font-size: 1.5rem
+                     font-size: 2rem
                
 @media screen and (min-width: 1200px)
    .headlines
@@ -139,8 +109,5 @@
             &:nth-child(1)
                +size(583px 350px)
 
-            &:nth-child(2)
-               +size(583px 350px)
-
                ~ .article
-                  +size(387.8px 225px)
+                  +size(583px 350px)
