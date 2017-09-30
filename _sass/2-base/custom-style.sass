@@ -40,54 +40,9 @@
    +display(inline-block)
    line-height: 1   
    
-.more-post
+.more-post            
    &.more-post-sidebar
-      padding-left: 0px
-      width: 100%
-      
-      .box-title
-         color: black
-      
-      .article-list
-         .article
-            +transition(all .2s ease-in-out 0s)
-            +position(relative)
-            margin-bottom: .5rem
-            width: 100%
-            padding: .3rem 0px .3rem .4rem
-            background-color: lighten(#ddd, 12)
-            border:
-               width: 1px
-               style: solid
-               color: lighten(#ddd, 9) lighten(#ddd, 9) lighten(#ddd, 9) #ddd
-               
-            &:before
-               content: ''
-               width: 0px
-               +position(absolute, 0px null 0px 0px)
-               +transition(all .1s ease-in-out 0s)
-               
-            &:hover    
-               border-left-color: darken(#ddd, 15)
-               padding-left: .7rem
-            
-               &:before
-                  width: 5px
-                  background-color: $color-alt
-            
-               .text .title
-                  color: black
-               
-            .img
-               +display(none)
-                  
-            .text
-               width: auto
-               padding-left: 0px
-               
-               .title
-                  margin-bottom: .4rem
-                  height: auto
+      +display(none)
          
    .box-title
       color: white
@@ -161,6 +116,55 @@
                   margin-bottom: .8rem  
                               
    @media screen and (min-width: 992px)
+      &.more-post-sidebar
+         +display(block)
+         padding-left: 0px
+         width: 100%
+
+         .box-title
+            color: black
+
+         .article-list
+            .article
+               +transition(all .2s ease-in-out 0s)
+               +position(relative)
+               margin-bottom: .5rem
+               width: 100%
+               padding: .3rem 0px .3rem .4rem
+               background-color: lighten(#ddd, 12)
+               border:
+                  width: 1px
+                  style: solid
+                  color: lighten(#ddd, 9) lighten(#ddd, 9) lighten(#ddd, 9) #ddd
+
+               &:before
+                  content: ''
+                  width: 0px
+                  +position(absolute, 0px null 0px 0px)
+                  +transition(all .1s ease-in-out 0s)
+
+               &:hover    
+                  border-left-color: darken(#ddd, 15)
+                  padding-left: .7rem
+
+                  &:before
+                     width: 5px
+                     background-color: $color-alt
+
+                  .text .title
+                     color: black
+
+               .img
+                  +display(none)
+
+               .text
+                  width: auto
+                  padding-left: 0px
+
+                  .title
+                     margin-bottom: .4rem
+                     height: auto
+            
       .article-list
          .article
             .text

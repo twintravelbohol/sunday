@@ -62,17 +62,7 @@
                      font-weight: bold              
 
          .post-sidebar
-            margin-top: 1rem
-
-            > section
-
-               &.social
-                  +display(none)
-
-               .box-title
-                  border-bottom-color: black
-
-
+            +display(none)
 
 @media screen and (min-width: 768px)
    .post
@@ -85,23 +75,6 @@
 
          .post-body
             padding: 1.5rem
-
-            .post-sidebar
-               +clearfix()
-
-               > section
-                  width: 48.5%
-
-                  &.social
-                     +display(block)
-
-                  &:nth-child(odd)
-                     float: left
-
-                  &:nth-child(even)
-                     float: right
-
-
 
 @media screen and (min-width: 992px)
    .post
@@ -118,16 +91,14 @@
                margin-top: 0px
                float: right
                width: 310px
+               +display(block)
 
                > section
                   margin-bottom: 1.5rem
                   width: auto
 
-                  &:nth-child(odd)
-                     float: none
-
-                  &:nth-child(even)
-                     float: none
+                  .box-title
+                     border-bottom-color: black
 
 @media screen and (min-width: 1200px)
    .post
