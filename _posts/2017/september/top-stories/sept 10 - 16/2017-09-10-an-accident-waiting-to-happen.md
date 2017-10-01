@@ -6,5 +6,5 @@ image: true
 archive: true
 hl-title: 'AN ACCIDENT WAITING TO HAPPEN.'
 hl-desc: 'This temporary detour bridge in Malitbog, Dagohoy town is a typical example of an accident waiting to happen. Its wooden components have deteriorated especially during rainy days. The Department of Public Works and Highways (DPWH) Second Engineering District is expected to call the attention of LEDA Construction who is the winning contactor of the project. (From the FB Account of Kag. Anthony R. Aniscal)'
-dated: September 10 - 16, 2017
+dated: Sept 10 - 16, 2017
 ---

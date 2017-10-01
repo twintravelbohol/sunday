@@ -4,7 +4,7 @@ title: 'Trillanes, a Dutertetrojan horse?'
 category: editorial
 image: true
 archive: true
-dated: September 17 - 23, 2017
+dated: Sept 17 - 23, 2017
 ---
 
 Is it possible for Sen. Sonny Trillanes to be a Dutertetrojan horse?

@@ -5,7 +5,7 @@ category: top-stories
 image: true
 hl-desc: 'ALL PRAISES. The newly-installed regional director of the Department of Tourism (DOT) in Region 7, Joshur Judd Lanete II, was all praises to the city government in the implementation of  the city tourism compliance certification. Lanete (left) took time out to take a pose with City Mayor Baba Yap when he paid a courtesy call at the city mayor’s office last week.'
 archive: true
-dated: August 20 - 26, 2017
+dated: Aug 20 - 26, 2017
 ---
 
 The newly appointed regional director of the Department of Tourism (DOT) in Region 7, Joshur Judd Lanete II, was all praises of the city government for its implementation of the its tourism compliance certificate.

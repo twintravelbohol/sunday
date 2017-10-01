@@ -4,7 +4,7 @@ title: 'Human rights abuses under Cory Aquino as bad as Marcos (Conclusion)'
 category: opinions
 image: true
 image-cat: 'res-ipsa-loquitur'
-dated: September 24 - Oct 01, 2017
+dated: Sept 24 - Oct 01, 2017
 ---
 
 Human rights abuses under

@@ -4,7 +4,7 @@ title: 'Give it a try'
 category: opinions
 image: true
 image-cat: 'the-kernel'
-dated: September 24 - Oct 01, 2017
+dated: Sept 24 - Oct 01, 2017
 ---
 
 The five most peaceful countries in the world are, Iceland, New Zealand, Portugal, Austria, and Denmark, in that order. The three most powerful countries, USA, Russia, and China are not in the list. Indeed, power or wealth does not necessarily lead to peace.

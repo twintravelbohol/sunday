@@ -3,7 +3,7 @@ layout: post
 title: 'Alicia campus writers join writeshop'
 category: top-stories
 archive: true
-dated: September 03 - 10, 2017
+dated: Sept 03 - 10, 2017
 ---
 
 Alicia campus writers join ASEAN writeshop

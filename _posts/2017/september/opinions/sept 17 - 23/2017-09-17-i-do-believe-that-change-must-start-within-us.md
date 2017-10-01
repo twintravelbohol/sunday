@@ -5,7 +5,7 @@ category: opinions
 image: true
 image-cat: 'word-on-fire'
 archive: true
-dated: September 17 - 23, 2017
+dated: Sept 17 - 23, 2017
 ---
 
 The Gospel of Jesus Christ (September 17, 2017- Sunday) Luke 10:1-9”Therefore said he unto them, the harvest truly [is] great, but the laborers [are] few: pray ye therefore the Lord of the harvest, that he would send forth laborers into his harvest. Go your ways: behold, I send you forth as lambs among wolves. Carry neither purse, nor scrip, nor shoes: and salute no man by the way. And into whatsoever house ye enter, first say, Peace [be] to this house. And if the son of peace be there, your peace shall rest upon it: if not, it shall turn to you again. And in the same house remain, eating and drinking such things as they give: for the laborers is worthy of his hire. Go not from house to house. And into whatsoever city ye enter, and they receive you, eat such things as are set before you: And heal the sick that are therein, and say unto them, The kingdom of God is come nigh unto you:

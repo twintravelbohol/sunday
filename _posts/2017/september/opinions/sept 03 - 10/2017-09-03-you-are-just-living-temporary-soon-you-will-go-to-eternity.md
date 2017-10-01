@@ -5,7 +5,7 @@ category: opinions
 image: true
 image-cat: 'word-on-fire'
 archive: true
-dated: September 03 - 10, 2017
+dated: Sept 03 - 10, 2017
 ---
 
 The Gospel of Jesus Christ (Sept. 3, 2017- Sunday) Mark 12:18-27”. In the resurrection therefore, when they shall rise, whose wife shall she be of them? for the seven had her to wife. And Jesus answering said unto them, do ye not therefore err, because ye know not the scriptures, neither the power of God?  Take note; if we will die all of us will become a pure spirit. Luke 24:39-Behold my hands and my feet, which it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye see me have. This is the reasons why Jesus expounded the Gospel that “no marital relationship” in the second life. How about those who are married already here on earth?

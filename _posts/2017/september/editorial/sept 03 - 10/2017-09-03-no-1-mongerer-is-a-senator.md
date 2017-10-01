@@ -4,7 +4,7 @@ title: 'No. 1 mongerer is a Senator'
 category: editorial
 image: true
 archive: true
-dated: September 03 - 10, 2017
+dated: Sept 03 - 10, 2017
 ---
 
 The Presidential son-in-law, Atty. Mans Carpio, was right when he said that Sen. Antonio Trillanes IV is a rumor-mongerer.

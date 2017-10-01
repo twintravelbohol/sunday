@@ -3,7 +3,7 @@ layout: post
 title: 'DAR meets land owners in Bohol'
 category: headlines
 archive: true
-dated: August 20 - 26, 2017
+dated: Aug 20 - 26, 2017
 ---
 
 The Department of Agrarian Reform (DAR) in Bohol hosted last week a meeting of landowners apparently to address questions on land distribution and acquisition as well as thresh out conflict between the owner and beneficiary, a decades old dilemma still facing the agency.

@@ -4,7 +4,7 @@ title: 'Aris: Lick poverty with new livelihood'
 category: headlines
 image: true
 archive: true
-dated: August 20 - 26, 2017
+dated: Aug 20 - 26, 2017
 ---
 
 REP. Erico Aristotle Aumentado (Bohol, 2nd District) takes seriously the “teaching a man to fish” part of the saying rather than the “giving a man a fish” part.

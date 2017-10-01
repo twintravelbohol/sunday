@@ -4,7 +4,7 @@ title: '30.87% crimes down in Aug against July'
 category: headlines
 image: true
 archive: true
-dated: August 20 - 26, 2017
+dated: Aug 20 - 26, 2017
 ---
 
 HALASAN

@@ -5,7 +5,7 @@ category: opinions
 image: true
 image-cat: 'sundry'
 archive: true
-dated: September 17 - 23, 2017
+dated: Sept 17 - 23, 2017
 ---
 
 The Karma of Trillanes

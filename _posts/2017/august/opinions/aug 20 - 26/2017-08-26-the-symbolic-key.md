@@ -5,7 +5,7 @@ category: opinions
 image: true
 image-cat: 'sunday-reflection'
 archive: true
-dated: August 20 - 26, 2017
+dated: Aug 20 - 26, 2017
 ---
 
 21st Sunday of the Year (cycle A)

@@ -3,7 +3,7 @@ layout: post
 title: '5-year validity on driver’s licenses'
 category: headlines
 archive: true
-dated: September 03 - 10, 2017
+dated: Sept 03 - 10, 2017
 ---
 
 The Land Transportation Office (LTO) in Bohol is now implementing the 5-year validity for driver’s licenses.

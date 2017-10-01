@@ -4,7 +4,7 @@ title: 'Baba Yap soars high in HNU Bohol Poll'
 category: top-stories
 image: true
 archive: true
-dated: August 20 - 26, 2017
+dated: Aug 20 - 26, 2017
 ---
 
 First time in the history of the Bohol Poll of the Holy Name University (HNU) here,  an elected official garnered an almost perfect score in its annual survey. 

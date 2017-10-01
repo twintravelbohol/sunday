@@ -4,7 +4,7 @@ title: "When God's attitude offends us"
 category: opinions
 image: true
 image-cat: 'sunday-reflection'
-dated: September 24 - Oct 01, 2017
+dated: Sept 24 - Oct 01, 2017
 ---
 
 When God’s attitude offends us

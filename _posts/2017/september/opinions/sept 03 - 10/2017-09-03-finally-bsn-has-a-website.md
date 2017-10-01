@@ -5,7 +5,7 @@ category: opinions
 image: true
 image-cat: 'res-ipsa-loquitur'
 archive: true
-dated: September 03 - 10, 2017
+dated: Sept 03 - 10, 2017
 ---
 
 When we say BSN, we are not referring to the Bachelor of Science in Nursing nor are we referring to the “Bana sa Nurse” in the United States.

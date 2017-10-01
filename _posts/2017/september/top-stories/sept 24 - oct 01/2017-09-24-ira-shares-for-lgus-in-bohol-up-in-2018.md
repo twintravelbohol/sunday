@@ -3,7 +3,7 @@ layout: post
 title: 'IRA shares for LGUs in Bohol up in 2018'
 category: top-stories
 image: true
-dated: September 24 - Oct 01, 2017
+dated: Sept 24 - Oct 01, 2017
 ---
 
 The shares of Internal Revenue Allotment (IRA) for municipal, city and province, of Bohol have been increased for 2018, a summary obtained from the Provincial Budget and Management Office showed.

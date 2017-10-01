@@ -4,7 +4,7 @@ title: 'The break up'
 category: opinions
 image: true
 image-cat: 'sundry'
-dated: September 24 - Oct 01, 2017
+dated: Sept 24 - Oct 01, 2017
 ---
 
 Left leaning organizations from all over the Philippines have already seenthe dawn of the breakup of their alliance with Pres. Duterte. This malaise came in the wake of the Commission of Appointment’s plucking out left leaning officials from the Duterte administration. First to go was Gina Lopez, secretary of the Department of Environment and Natural Resources; Judy Taguiwalo at the Department of Social Welfare and Agrarian Reform Secretary Rafael Mariano who were both nominated by the Nationalist Democratic Front of the Philippines (NDFP). The Left were disappointed that Duterte did nothing for the retention of their nominees. 

@@ -4,7 +4,7 @@ title: 'Prov’l dad calls for unitede effort vs.AIDS/HIV'
 category: top-stories
 image: true
 archive: true
-dated: August 20 - 26, 2017
+dated: Aug 20 - 26, 2017
 ---
 
 Board Member Jade Acapulco Bautista (3rd district) of the SangguniangPanlalawigan of Bohol issued an appeal last week to all to unite and prevent the spread of Acquired Immune Deficiency Syndrome (AIDS) or HIV.

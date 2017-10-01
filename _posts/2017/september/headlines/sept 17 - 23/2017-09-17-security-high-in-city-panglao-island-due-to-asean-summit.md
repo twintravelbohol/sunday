@@ -4,7 +4,7 @@ title: 'Security high in city, Panglao island due to ASEAN summit'
 category: headlines
 image: true
 archive: true
-dated: September 17 - 23, 2017
+dated: Sept 17 - 23, 2017
 ---
 
 Coast Guard officials in Panglao town recently met with local motor banca operators on the no sail zone of the town during the ASEAN Summit this week. 

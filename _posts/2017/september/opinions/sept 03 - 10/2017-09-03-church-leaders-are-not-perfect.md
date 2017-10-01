@@ -5,7 +5,7 @@ category: opinions
 image: true
 image-cat: 'sunday-reflection'
 archive: true
-dated: September 03 - 10, 2017
+dated: Sept 03 - 10, 2017
 ---
 
 22nd Sunday of the Year (cycle A)

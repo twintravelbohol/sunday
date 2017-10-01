@@ -4,7 +4,7 @@ title: 'One way to stop the return of NPAs here'
 category: opinions
 image: true
 image-cat: 'the-agora'
-dated: September 24 - Oct 01, 2017
+dated: Sept 24 - Oct 01, 2017
 ---
 
 In the recent meetings of the Provincial Peace and Order Council (PPOC) the military, in reporting on the internal security situation, has repeatedly mentioned reports of sightings of a band of six (6) to 15 armed men in different barangays of the municipalities of Bohol, particularly in towns that used to be heavily affected by the local communist rebels.  

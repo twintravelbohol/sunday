@@ -3,7 +3,7 @@ layout: post
 title: 'Transfer Nobleza hearing to Manila'
 category: headlines
 archive: true
-dated: September 03 - 10, 2017
+dated: Sept 03 - 10, 2017
 ---
 
 The Provincial Peace and Order Council (PPOC) in Bohol formalized last week the appeal to transfer to Manila the hearing of the criminal cases filed against dismissed P/Supt. Ma. Cristina Nobleza and her lived-in partner, Reneer Lou Dongon.

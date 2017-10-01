@@ -5,7 +5,7 @@ category: opinions
 image: true
 image-cat: 'the-agora'
 archive: true
-dated: August 20 - 26, 2017
+dated: Aug 20 - 26, 2017
 ---
 
 We congratulate the leading officials of Bohol for their excellent and some for their very good voters’ satisfaction rating in the recent Bohol Poll conducted by the Holy Name University (HNU) using the Social Weather Station methodology from June 10 to July 20, 2017. Nobody got lower than “very good” rating. Polled for voters’ satisfaction were the President and Vice President, the congressmen of the three (3) districts of Bohol, the governor, vice governor, city mayor and vice mayor of Tagbilaran City, the PNP and the military.

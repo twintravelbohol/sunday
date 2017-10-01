@@ -3,7 +3,7 @@ layout: post
 title: "'Never Again' to Martial Law?"
 category: editorial
 image: true
-dated: September 24 - Oct 01, 2017
+dated: Sept 24 - Oct 01, 2017
 ---
 
 It's a scene we have seen so many times before.

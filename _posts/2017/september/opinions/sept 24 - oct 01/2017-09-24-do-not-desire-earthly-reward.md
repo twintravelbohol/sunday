@@ -4,7 +4,7 @@ title: 'Do not desire earthly reward'
 category: opinions
 image: true
 image-cat: 'word-on-fire'
-dated: September 24 - Oct 01, 2017
+dated: Sept 24 - Oct 01, 2017
 ---
 
 The Gospel of Jesus Christ (Sept. 24, 2017- Sunday) Matthew 1:18-24- Then Joseph her husband, being a just [man], and not willing to make her a public example, was minded to put her away privately. But while he thought on these things, behold, the angel of the Lord appeared unto him in a dream, saying, Joseph, thou son of David, fear not to take unto thee Mary thy wife: for that which is conceived in her is of the Holy Ghost. And she shall bring forth a son, and thou shall call his name JESUS: for he shall save his people from their sins. Now all this was done, that it might be fulfilled which was spoken of the Lord by the prophet, saying, Behold, a virgin shall be with child, and shall bring forth a son, and they shall “call” his name Emmanuel, which being interpreted is, God with us. Then Joseph being raised from sleep did as the angel of the Lord had bidden him, and took unto him his wife:

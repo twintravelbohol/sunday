@@ -3,7 +3,7 @@ layout: post
 title: 'CebuPac beats PAL in Tagb-Dvo flight'
 category: headlines
 image: true
-dated: September 17 - 23, 2017
+dated: Sept 24 - Oct 01, 2017
 ---
 
 The Philippines’ leading airline Cebu Pacific continues to expand its domestic network by adding a new route that will directly link Davao City with Tagbilaran, Bohol ahead of the launching of the flag-carrier Philippine Airlines,

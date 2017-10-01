@@ -5,7 +5,7 @@ category: opinions
 image: true
 image-cat: 'the-agora'
 archive: true
-dated: September 17 - 23, 2017
+dated: Sept 17 - 23, 2017
 ---
 
 RomyS. Teruel

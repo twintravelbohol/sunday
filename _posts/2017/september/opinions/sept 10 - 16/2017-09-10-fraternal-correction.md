@@ -5,7 +5,7 @@ category: opinions
 image: true
 archive: true
 image-cat: 'sunday-reflection'
-dated: September 10 - 16, 2017
+dated: Sept 10 - 16, 2017
 ---
 
 23rd Sunday of the Year (cycle A)

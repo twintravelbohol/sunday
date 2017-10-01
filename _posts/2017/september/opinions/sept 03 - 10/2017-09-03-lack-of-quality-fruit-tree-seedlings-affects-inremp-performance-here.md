@@ -5,7 +5,7 @@ category: opinions
 image: true
 image-cat: 'the-agora'
 archive: true
-dated: September 03 - 10, 2017
+dated: Sept 03 - 10, 2017
 ---
 
 The need for everyone to participate in climate change mitigation and adaptation activities has never been emphasized than it is today.  Destruction in terms of loss of life and damage to infrastructure, agriculture, commerce and industry every time super typhoons strike has become incalculable.  Preparations are never lacking but they are never enough once disaster strikes.  

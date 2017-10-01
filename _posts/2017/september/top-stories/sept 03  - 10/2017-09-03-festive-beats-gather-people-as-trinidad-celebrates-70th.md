@@ -6,7 +6,7 @@ image: true
 archive: true
 hl-title: 'TRINIDAD’S FOUNDING ANNIVERSARY.'
 hl-desc: 'Photo above shows the mardi gras during the founding anniversary of Trinidad last Friday as hundreds of on-lookers witnessed the affair. (Photo by PIA-Bohol)'
-dated: September 03 - 10, 2017
+dated: Sept 03 - 10, 2017
 ---
 
 TRINIDAD.- The rumble of the bass and tomtoms, the cracking of the snare drums and the smartly costumed majorettes, minorettes, flag bearers and twirlers again drew the unusually large throng of a united crowd as 21 elementary and 6 secondary drum and lyre corps pound and trot to add excitement to the 70th Founding Anniversary of this town.

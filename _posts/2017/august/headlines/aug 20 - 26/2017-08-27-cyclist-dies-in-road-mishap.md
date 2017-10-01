@@ -6,7 +6,7 @@ image: true
 hl-title: 'RUN OVER.'
 hl-desc: "Photo above shows the lifeless body of Clinton Bensi, a resident of Basak, Lapulapu City and his bicycle. Below photo showed Bensi being dragged by the tires of the bus. The 20-year old cyclist figured in a road mishap last Monday afternoon in Barangay Ubujan, Inabanga. Bensi was ran over by a Southern Star unit after he hit the rear bike of his companion’s bicycle."
 archive: true
-dated: August 20 - 26, 2017
+dated: Aug 20 - 26, 2017
 ---
 
 INABANGA.-A 20-year-old cyclist died after he was run over by a Southern Star bus last Monday afternoon.

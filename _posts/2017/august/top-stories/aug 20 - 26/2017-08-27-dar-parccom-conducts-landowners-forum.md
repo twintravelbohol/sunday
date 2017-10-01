@@ -6,7 +6,7 @@ image: true
 hl-title: 'DAR/PARCCOM CONDUCTS LANDOWNERS’ SYMPOSIUM.'
 hl-desc: 'Above photo shows PARPO Grace Fua (with mic) who gave her message during the conduct of Landowners’ Symposium through the initiative of the Provincial Agrarian Reform Coordinating Committee (PARCCOM) in Bohol in order to hear and resolve issues affecting the implementation of the Comprehensive Agrarian Reform Program (CARP) in the province. Please see related story.'
 archive: true
-dated: August 20 - 26, 2017
+dated: Aug 20 - 26, 2017
 ---
 
 The Provincial Agrarian Reform Coordinating Committee (PARCCOM) here in collaboration with the Department of Agrarian Reform (DAR) Provincial Office conducted a Landowners’ Symposium at BODARE Pension House, Dao, Tagbilaran City last August 24, 2017.

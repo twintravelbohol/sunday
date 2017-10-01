@@ -3,7 +3,7 @@ layout: post
 title: 'Dauis-Panglao Island moved'
 category: headlines
 archive: true
-dated: September 03 - 10, 2017
+dated: Sept 03 - 10, 2017
 ---
 
 A bill is now pending before the House of Representatives seeking to name the Panglao Island into Dauis-Panglao Island.

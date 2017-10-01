@@ -5,7 +5,7 @@ category: opinions
 image: true
 archive: true
 image-cat: 'res-ipsa-loquitur'
-dated: September 10 - 16, 2017
+dated: Sept 10 - 16, 2017
 ---
 
 Early this year, we started monitoring the movements of Cabinet Sec. Jun Evasco within the four corners of Bohol.

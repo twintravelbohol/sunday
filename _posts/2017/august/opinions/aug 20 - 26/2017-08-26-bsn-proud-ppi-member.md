@@ -5,7 +5,7 @@ category: opinions
 image: true
 image-cat: 'res-ipsa-loquitur'
 archive: true
-dated: August 20 - 26, 2017
+dated: Aug 20 - 26, 2017
 ---
 
 Frankly speaking, this paper is still a cinch away from achieving the regular membership in the most prestigious Philippine Press Institute (PPI), the national association of Philippine newspapers.

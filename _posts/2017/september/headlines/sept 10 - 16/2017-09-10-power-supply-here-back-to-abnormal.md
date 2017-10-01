@@ -3,7 +3,7 @@ layout: post
 title: 'Power supply here back to abnormal'
 category: headlines
 archive: true
-dated: September 10 - 16, 2017
+dated: Sept 10 - 16, 2017
 ---
 
 The entire province is again facing an abnormal power situation as consumers experienced a total power blackout at almost midnight last Friday.
