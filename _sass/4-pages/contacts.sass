@@ -1,3 +1,30 @@
-.contacts
-   .contacts-container
-      @extend .container
+#contact-body
+   .mobile-social
+
+   .form
+      .form-contact
+         input:focus, textarea:focus
+            outline: none
+
+         label
+            +display(block)
+            +clearfix()
+            margin-bottom: 1rem
+
+            > *
+               float: left
+               padding: 4px 6px
+            
+            strong
+               width: 90px
+               +display(block)
+               margin-right: 1rem
+                  
+            input, textarea
+               width: 300px
+               border:
+                  width: 1px
+                  style: solid
+                  color: $border-color
+                  radius: 3px
+               
