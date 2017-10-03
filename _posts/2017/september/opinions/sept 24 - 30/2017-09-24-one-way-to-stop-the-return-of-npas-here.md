@@ -3,6 +3,7 @@ layout: post
 title: 'One way to stop the return of NPAs here'
 category: opinions
 image: true
+archive: true
 image-cat: 'the-agora'
 dated: Sept 24 - 30, 2017
 ---

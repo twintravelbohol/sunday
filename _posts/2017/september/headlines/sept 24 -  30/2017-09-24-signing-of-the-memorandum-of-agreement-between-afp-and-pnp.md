@@ -3,6 +3,7 @@ layout: post
 title: 'Signing of the Memorandum of Agreement between AFP and PNP'
 category: headlines
 image: true
+archive: true
 dated: Sept 24 - 30, 2017
 ---
 

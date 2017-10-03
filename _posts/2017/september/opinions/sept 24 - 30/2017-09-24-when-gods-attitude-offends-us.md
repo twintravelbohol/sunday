@@ -3,6 +3,7 @@ layout: post
 title: "When God's attitude offends us"
 category: opinions
 image: true
+archive: true
 image-cat: 'sunday-reflection'
 dated: Sept 24 - 30, 2017
 ---

@@ -3,6 +3,7 @@ layout: post
 title: 'CebuPac beats PAL in Tagb-Dvo flight'
 category: headlines
 image: true
+archive: true
 dated: Sept 24 - 30, 2017
 ---
 

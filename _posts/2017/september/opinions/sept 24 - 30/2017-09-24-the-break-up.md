@@ -3,6 +3,7 @@ layout: post
 title: 'The break up'
 category: opinions
 image: true
+archive: true
 image-cat: 'sundry'
 dated: Sept 24 - 30, 2017
 ---

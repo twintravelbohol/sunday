@@ -3,6 +3,7 @@ layout: post
 title: 'Give it a try'
 category: opinions
 image: true
+archive: true
 image-cat: 'the-kernel'
 dated: Sept 24 - 30, 2017
 ---

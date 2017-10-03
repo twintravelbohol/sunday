@@ -3,6 +3,7 @@ layout: post
 title: 'Do not desire earthly reward'
 category: opinions
 image: true
+archive: true
 image-cat: 'word-on-fire'
 dated: Sept 24 - 30, 2017
 ---

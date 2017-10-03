@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'New Clarin church'
+title: 'New Clarin Church'
 category: top-stories
 image: true
 hl-title: 'NEW CLARIN CHURCH.'
