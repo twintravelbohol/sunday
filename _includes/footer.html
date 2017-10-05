@@ -9,7 +9,7 @@
             <span class='email'>Contact us: 
                {% for email in site.data.settings.email %}
                {% if email.name == 'yahoo' %}
-               <a href='/'>{{ email.mail }}</a>
+               <a href='mailto:{{ email.mail }}'>{{ email.mail }}</a>
                {% endif %}
                {% endfor %}
             </span>      
@@ -37,5 +37,12 @@
       </section>
    </section>
 </footer>
+
+<script>
+    siteEmail = '{% for email in site.data.settings.email %}{% if email.name == 'yahoo' %}{{ email.mail }}{% endif %}{% endfor %}'
+</script>
+
+<script src='/assets/js/function.js'></script>
+
 </body>
 </html>
