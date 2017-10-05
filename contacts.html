@@ -11,10 +11,14 @@ title: Contact Us
       
       <section id='contact-body' class='category-body'>
          <section class='articles contact-content'>
-            <div class='mobile-social'>
-
+            <div class='contact-no'>
+               <h5>General Inquiries</h5>
+               {% for mob in site.data.settings.mobile %}
+               <p><strong class='mob-name'>{{ mob.name | capitalize }}</strong><span class='mob-no'>{{ mob.number }}</span></p>
+               {% endfor %}
             </div>
             <div class='form'>
+               <h5>Send us a message</h5>
                <form class='form-contact' method='POST' action="https://formspree.io/{% for mail in site.data.settings.email %}{% if mail.name != 'gmail' %}{{mail.mail}}{% endif %}{% endfor %}">
                   <label class='name'>
                      <strong>Name</strong>
@@ -22,7 +26,7 @@ title: Contact Us
                   </label>
                   <label class='email'>
                      <strong>Email</strong>
-                     <input type='text' name='email' required>
+                     <input type='email' name='email' required>
                   </label>
                   <label class='message'>
                      <strong>Message</strong>
