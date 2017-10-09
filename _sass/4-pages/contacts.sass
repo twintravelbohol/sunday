@@ -1,27 +1,31 @@
-#contact-body   
+#contact-body      
+   padding-top: 1.2rem
+   padding-bottom: 1.2rem
+   
    .contact-no      
       margin-bottom: 2rem
       
-      p
-         padding-left: 6px
-         
-         > *
-            +display(inline-block)
-               
-         .mob-name
-            width: 100px
-            +position(relative)
+      .contact-no-container                
+         .mob, .tel    
             
-            &:after
-               content: ':'
-               +position(absolute, null 0px null null)
-               
-         .mob-no
-            padding-left: .5rem      
+            p
+               padding-left: 6px
 
-   .form
-      margin-bottom: 1rem
-      
+               > *
+                  +display(inline-block)
+
+               .mob-name, .tel-name
+                  width: 100px
+                  +position(relative)
+
+                  &:after
+                     content: ':'
+                     +position(absolute, null 0px null null)
+
+               .mob-no, .tel-no
+                  padding-left: .5rem      
+
+   .form      
       .form-contact
          +display(flex)
          +flex-wrap(wrap)
@@ -66,9 +70,11 @@
             &:hover
                background-color: $color-alt
             
-            
 @media screen and (min-width: 500px)
    #contact-body
+      padding-top: 2rem
+      padding-bottom: 2rem
+      
       .form
          .form-contact
             width: 500px
@@ -91,6 +97,19 @@
             input[type='submit']
                margin-left: 106px
                float: none
+               
+@media screen and (min-width: 768px)
+   #contact-body      
+      .contact-no      
+         .contact-no-container      
+            +display(flex)               
+            
+            div:last-of-type
+               p
+                  padding-left: 0px
+
+            .mob, .tel    
+               width: 50%
 
 @media screen and (min-width: 992px)
    #contact-body

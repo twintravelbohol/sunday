@@ -49,12 +49,12 @@
             +transition(all .4s ease-in-out 0s)
             line-height: 1
             margin-bottom: 0px
-            +clearfix()
+            +display(flex)
          
             .svg
-               float: left
                border-radius: 4px
                box-shadow: -2px 1px 2px 1px rgba($border-color, 1)
+               +align-self(flex-start)
                
                svg
                   +size(40px)
@@ -65,10 +65,8 @@
                      fill: rgba($color-alt, .5)
                      
             .text
-               float: left
                line-height: 1.5
                margin-left: .5rem
-               width: 80%
                
          .answer
             +transition(all .8s ease-in-out 0s)

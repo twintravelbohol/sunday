@@ -1,6 +1,13 @@
 .site-footer
    background-color: black
    
+   &.no-upper-footer
+      .footer-container
+         padding-top: 0px
+         
+         .upper-footer
+            +display(none)
+   
    .footer-container
       @extend .container
       padding-bottom: 0px
