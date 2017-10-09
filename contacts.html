@@ -13,9 +13,19 @@ title: Contact Us
          <section class='articles contact-content'>
             <div class='contact-no'>
                <h5>General Inquiries</h5>
-               {% for mob in site.data.settings.mobile %}
-               <p><strong class='mob-name'>{{ mob.name | capitalize }}</strong><span class='mob-no'>{{ mob.number }}</span></p>
-               {% endfor %}
+               <div class='contact-no-container'>
+                  <div class='mob'>
+                  {% for mob in site.data.settings.mobile %}
+                  <p><strong class='mob-name'>{{ mob.name | capitalize }}</strong><span class='mob-no'>{{ mob.number }}</span></p>
+                  {% endfor %}
+                  </div>
+                  <div class='tel'>
+                  {% for tel in site.data.settings.tel %}
+                  <p><strong class='mob-name'>TEL: {% if tel.name == 'pldt' %}{{ tel.name | upcase }}{% else %}{{ tel.name | capitalize }}{% endif %}</strong><span class='tel-no'>{{ tel.number }}</span></p>
+                  {% endfor %}
+                  </div>
+               </div>
+               
             </div>
             <div class='form'>
                <h5>Send us a message</h5>

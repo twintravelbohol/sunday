@@ -31,10 +31,14 @@ layout: default
 
             <div class='prev-next-pagination'>
                {% if page.previous.url %}
-                  <a class='prev-page' href='{{ page.previous.url }}'>{{ page.previous.title }}</a>
+                  <a class='prev-page' href='{{ page.previous.url }}'>{{ page.previous.title }}
+                     <span class='smaller'>{{ page.previous.category }}</span>
+                  </a>
                {% endif %}
                {% if page.next.url %}
-                  <a class='next-page' href='{{ page.next.url }}'>{{ page.next.title }}</a>
+                  <a class='next-page' href='{{ page.next.url }}'>{{ page.next.title }}
+                     <span class='smaller'>{{ page.next.category }}</span>
+                  </a>
                {% endif %}
             </div>
 

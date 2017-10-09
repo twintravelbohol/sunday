@@ -1,0 +1,25 @@
+---
+layout: default
+title: About Us
+---
+
+<section class='category'>
+   <section class='category-container'>
+      <header class='category-header'>
+         <h1 class='title'>{{ page.title }}</h1>
+      </header>
+      
+      <section id='about-us-body' class='category-body'>
+         <section class='articles'>
+            <figure class='img'>
+               <img src='/assets/img/banner.jpg'>           
+            </figure>
+            <p>{{ site.data.settings.desc }}</p>            
+         </section>
+         
+         <section class='sidebar'>
+            {% include fb-likebox.html %}         
+         </section>
+      </section>      
+   </section>
+</section>
