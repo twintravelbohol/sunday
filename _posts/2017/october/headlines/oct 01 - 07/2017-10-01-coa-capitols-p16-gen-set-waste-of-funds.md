@@ -3,6 +3,7 @@ layout: post
 title: "COA Capitol's P1.6 gen set waste of funds"
 category: headlines
 image: true
+archive: true
 hl-title: 'The Commission on Audit (COA) said that a generator set worth P1,624,000.00 was not used for two years that the agency considered a waste of government funds, according to reports reaching the Bohol Sunday News last week.'
 hl-desc: ''
 dated: 0ct 01 - 07, 2017

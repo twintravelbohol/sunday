@@ -3,6 +3,7 @@ layout: post
 title: 'ANALYSIS Bohol incumbents the spouse card'
 category: headlines
 image: true
+archive: true
 dated: 0ct 01 - 07, 2017
 ---
 

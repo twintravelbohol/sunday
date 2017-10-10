@@ -3,6 +3,7 @@ layout: post
 title: 'Lower House increased Ubay hospital bed capacity to 300'
 category: headlines
 image: true
+archive: true
 hl-title: 'BED CAPACITY INCREASED.'
 hl-desc: 'The Don Emilio del Valle Memorial Hospital (DEDVMH) in Ubay town stands to increase its bed capacity from 50 to 300 based on the bill filed by Cong. Aris C. Aumentado of Bohol’s second district.'
 dated: 0ct 01 - 07, 2017
