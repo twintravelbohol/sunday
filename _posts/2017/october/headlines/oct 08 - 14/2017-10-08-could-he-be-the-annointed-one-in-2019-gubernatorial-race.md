@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Could he be the annointed one in the 2019 gubernatolrial race'
+title: 'Could he be the annointed one in 2019 gubernatorial race?'
 category: headlines
 image: true
 hl-title: 'COULD HE BE THE ANNOINTED ONE?'
