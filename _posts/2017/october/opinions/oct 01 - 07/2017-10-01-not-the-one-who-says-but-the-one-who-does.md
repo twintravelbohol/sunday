@@ -3,6 +3,7 @@ layout: post
 title: 'Not the one who says, but the one who does'
 category: opinions
 image: true
+archive: true
 image-cat: 'sunday-reflection'
 dated: 0ct 01 - 07, 2017
 ---

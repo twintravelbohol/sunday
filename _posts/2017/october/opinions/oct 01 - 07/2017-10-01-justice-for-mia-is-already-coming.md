@@ -3,6 +3,7 @@ layout: post
 title: 'Justice for Mia is already coming'
 category: opinions
 image: true
+archive: true
 image-cat: 'res-ipsa-loquitur'
 dated: 0ct 01 - 07, 2017
 ---

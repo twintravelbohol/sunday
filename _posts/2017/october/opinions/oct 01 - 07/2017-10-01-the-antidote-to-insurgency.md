@@ -3,6 +3,7 @@ layout: post
 title: 'The antidote to insurgency'
 category: opinions
 image: true
+archive: true
 image-cat: 'the-agora'
 dated: 0ct 01 - 07, 2017
 ---

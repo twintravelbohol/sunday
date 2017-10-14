@@ -3,6 +3,7 @@ layout: post
 title: "A child’s  story"
 category: opinions
 image: true
+archive: true
 image-cat: 'sundry'
 dated: 0ct 01 - 07, 2017
 ---

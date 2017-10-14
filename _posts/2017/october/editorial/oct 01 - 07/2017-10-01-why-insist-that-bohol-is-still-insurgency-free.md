@@ -2,6 +2,7 @@
 layout: post
 title: 'Why insist that Bohol is still insurgency-free?'
 category: editorial
+archive: true
 dated: 0ct 01 - 07, 2017
 ---
 
