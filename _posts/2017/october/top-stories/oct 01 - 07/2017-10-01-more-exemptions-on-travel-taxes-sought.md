@@ -3,6 +3,7 @@ layout: post
 title: 'More exemptions on travel taxes sought'
 category: top-stories
 image: true
+archive: true
 dated: 0ct 01 - 07, 2017
 ---
 

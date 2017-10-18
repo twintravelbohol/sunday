@@ -4,6 +4,7 @@ title: 'LP in loyalty check, Art-Rene tandem up'
 category: headlines
 image: true
 dated: 0ct 08 - 14, 2017
+archive: true
 ---
 
 Well, it depends upon which side of the bread is being buttered if one reports on the latest political situation in the province last week.

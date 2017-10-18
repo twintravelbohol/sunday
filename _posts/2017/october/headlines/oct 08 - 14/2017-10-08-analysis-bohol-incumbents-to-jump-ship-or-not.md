@@ -3,6 +3,7 @@ layout: post
 title: 'Bohol incumbents: To jump ship or not'
 category: headlines
 dated: 0ct 08 - 14, 2017
+archive: true
 ---
 
 ANALYSIS

@@ -4,6 +4,7 @@ title: 'Cartel controls fuel, fish prices in Bohol'
 category: headlines
 image: true
 dated: 0ct 08 - 14, 2017
+archive: true
 ---
 
 OLIVA

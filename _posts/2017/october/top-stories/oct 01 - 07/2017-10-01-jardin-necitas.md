@@ -3,6 +3,7 @@ layout: post
 title: 'Jardin Necitas'
 category: top-stories
 image: true
+archive: true
 hl-title: 'JARDIN NECITAS.'
 hl-desc: 'This new tourist attraction in Bagumbayan, Pilar opened last Wednesday. Named after Mayor NecitasCubrado, this garden is composed of LED lights that shines during night time even as environmentalists have their own criticism on this. In the photo are (L to R) Mayor Nita Cubrado, daughter Vanessa Cubrado and Board Member Kristine Alexie Tutor during the ribbon-cutting  ceremonies. (Photo by Ric V. Obedencio)'
 dated: 0ct 01 - 07, 2017
