@@ -3,8 +3,6 @@ layout: post
 title: 'ANALYSIS Bohol incumbents. What to do with Evasco?'
 category: headlines
 image: true
-hl-title: ''
-hl-desc: ''
 dated: 0ct 15 - 21, 2017
 ---
 
