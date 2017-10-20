@@ -25,6 +25,14 @@ email:
  - {name: 'yahoo', mail: 'boholsundaynews@yahoo.com' }
  - {name: 'gmail', mail: 'boholsundaynews@gmail.com' }
  
+opinion-aut:
+ - {cat-name: 'sundry', aut-name: 'Lex V. Ruaya'}
+ - {cat-name: 'res-ipsa-loquitur', aut-name: 'Atty. Dandan A. Bantugan'}
+ - {cat-name: 'sunday-reflection', aut-name: 'Rev. Fr. Jose Cecil N. Lobrigas'}
+ - {cat-name: 'the-agora', aut-name: 'Romy Teruel'}
+ - {cat-name: 'word-on-fire', aut-name: ''}
+ - {cat-name: 'the-kernel', aut-name: 'Boni Quirog, Ph.D.'}
+ 
 faq:
  - {question: 'Where is Bohol Sunday News B(SN) located?', answer: 'The business and editorial office <br>of the Bohol Sunday News is located at: <br>Mezzanine Floor, Manigque Building <br>M.H. delPilar Street, City of Tagbilaran <br><br>Tel Nos: (038) 412-3291 (PLDT); (038) 501-0491 (Globe)'}
  - {question: 'How can I secure a copy of the Bohol Sunday News?', answer: 'If you have access to any news stands in Tagbilaran City, you can secure a copy of the B(SN). Otherwise, get a copy at the business address stated above or just call any of our landlines.'}
