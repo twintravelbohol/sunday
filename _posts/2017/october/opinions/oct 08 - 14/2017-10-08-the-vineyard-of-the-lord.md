@@ -5,6 +5,7 @@ category: opinions
 image: true
 image-cat: 'sunday-reflection'
 dated: 0ct 08 - 14, 2017
+archive: true
 ---
 
 27th Sunday of the Year(cycle A)

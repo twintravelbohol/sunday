@@ -5,6 +5,7 @@ category: opinions
 image: true
 image-cat: 'res-ipsa-loquitur'
 dated: 0ct 08 - 14, 2017
+archive: true
 ---
 
 It no longer surprised us to hear that a cartel is behind the high prices of fuel and fish prices in Bohol.

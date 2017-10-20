@@ -5,6 +5,7 @@ category: opinions
 image: true
 image-cat: 'sundry'
 dated: 0ct 08 - 14, 2017
+archive: true
 ---
 
 The raid by the military at one of the houses at the Muslim Village here in the city yielded high powered firearms. What is laudable here is that the residents showed that they are vigilant. They manifested that they are peace loving individuals whodo not want Tagbilaran would be like another Marawi city.

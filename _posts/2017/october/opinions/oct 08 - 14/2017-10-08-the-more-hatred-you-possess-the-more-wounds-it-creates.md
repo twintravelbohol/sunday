@@ -5,6 +5,7 @@ category: opinions
 image: true
 image-cat: 'word-on-fire'
 dated: 0ct 08 - 14, 2017
+archive: true
 ---
 
 The Gospel of Jesus Christ (Oct. 8, 2017-Sunday) Matthew 18:21-35” For this reason the kingdom of heaven may be compared to a king who wished to settle accounts with his slaves. "When he had begun to settle them, one who owed him ten thousand talents was brought to him. But since he did not have the means to repay, his lord commanded him to be sold, along with his wife and children and all that he had, and repayment to be made. "So the slave fell to the ground and prostrated himself before him, saying, Have patience with me and I will repay you everything:
