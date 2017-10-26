@@ -4,6 +4,7 @@ title: 'Yap to PDP-Laban imperils Dumaluan'
 category: headlines
 image: true
 dated: 0ct 15 - 21, 2017
+archive: true
 ---
 
 The formal entry of Rep. Arthur C. Yap (3rd District, Bohol) to the ruling PartidoDemokratiko Pilipino-Lakasng Bayan (PDP-Laban) last Wednesday practically imperils the leadership of Dr.DoloreichDumaluan as the party’s chairman in the province.

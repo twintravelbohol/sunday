@@ -5,6 +5,7 @@ category: headlines
 image: true
 hl-desc: 'The National Grid Corporation of the Philippines (NGCP) is set to connect the power barge moored off the Tapal Wharf in the Ubay through the 69-Kv Ubay-Tapal transmission line to a substation in Imelda of the same town.'
 dated: 0ct 15 - 21, 2017
+archive: true
 ---
 
 The power barge based in Tapal. Ubay still remains to be energized.

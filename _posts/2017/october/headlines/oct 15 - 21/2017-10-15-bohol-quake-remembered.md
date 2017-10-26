@@ -4,6 +4,7 @@ title: 'Bohol quake remembered'
 category: headlines
 image: true
 dated: 0ct 15 - 21, 2017
+archive: true
 ---
 
 Four years after magnitude 7.2 earthquake struck the province, several questions remained unanswered until today.

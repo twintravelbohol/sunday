@@ -4,6 +4,7 @@ title: "Gonzaga pleads not guilty in Mia’s slay"
 category: headlines
 image: true
 dated: 0ct 15 - 21, 2017
+archive: true
 ---
 
 The principal suspect in the killing of Atty Mia Manuelita C. Mascariňas-Green pleaded not guilty during his arraignment at the Regional Trial Court (RTC) of Bohol Branch 1 last Friday morning.

@@ -4,6 +4,7 @@ title: 'ANALYSIS Bohol incumbents. What to do with Evasco?'
 category: headlines
 image: true
 dated: 0ct 15 - 21, 2017
+archive: true
 ---
 
 What to do with Evasco?
