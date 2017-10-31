@@ -5,6 +5,7 @@ category: headlines
 image: true
 hl-desc: 'Photos above show Glenda S. Arquisa, CPD keynote speaker and Rocky M. Camaligan,CGMH health education and promotion officer, flanked by Atty. Arlen P. Palgan and CristinSajonia, Powerhouse executive assistant.'
 dated: 0ct 22 - 28, 2017
+archive: true
 ---
 
 Powerhouse holds first CPD seminar in Bohol

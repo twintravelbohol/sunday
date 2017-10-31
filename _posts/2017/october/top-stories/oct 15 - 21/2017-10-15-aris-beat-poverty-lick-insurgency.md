@@ -6,6 +6,7 @@ image: true
 hl-title: 'RECEIVING HIS “AGILA”.'
 hl-desc: 'After his speech during the 29th founding anniversary of the 703rd Infantry Brigade based in Barangay Calaanan, Bongabon, Nueva Edija province, Rep. Erico Aristotle Aumentado (right) of Bohol’s 2nd District receives a replica of a Philippine eagle that is the brigade’s official symbol, from the commander, newly promoted Brig. Gen. Abraham Claro Casis. Casis was part of the military-civilian team-up that led to the crushing of the CPP-NDF-NPA insurgency in Bohol during Aumentado’s father Erico’s incumbency as governor. Photo: Aris Aumentado’s Facebook Account'
 dated: 0ct 15 - 21, 2017
+archive: true
 ---
 
 By JUNE S. BLANCO

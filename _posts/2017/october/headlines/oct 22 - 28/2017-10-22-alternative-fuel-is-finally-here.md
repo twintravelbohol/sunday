@@ -4,6 +4,7 @@ title: 'Alternative fuel is finally here'
 category: headlines
 image: true
 dated: 0ct 22 - 28, 2017
+archive: true
 ---
 
 The weird weather here this week lays the seemingly fitting premise for a real and drastic measure towards mitigating effects of climate change, one which would be the main topic in the government's promotion for innovations in alternative fuels and energy efficient technologies this week.

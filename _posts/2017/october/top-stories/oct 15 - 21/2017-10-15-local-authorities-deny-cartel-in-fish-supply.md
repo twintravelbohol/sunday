@@ -4,6 +4,7 @@ title: 'Local authorities deny cartel in fish supply'
 category: top-stories
 image: true
 dated: 0ct 15 - 21, 2017
+archive: true
 ---
 
 ABAPO

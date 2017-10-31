@@ -6,6 +6,7 @@ image: true
 hl-title: 'BUSINESS-FRIENDLY.'
 hl-desc: 'Photo shows Pres. Duterte hands to Bohol Gov. Edgar Chatto the Most Business-Friendly LGU Provincial Level Award from the Philippine Chamber of Commerce and Industry (PCCI) during the 43rd Philippine Business Conference (PBC) and Expo at the Manila Hotel last Thursday. Also shown are (l-r) Department of Trade and Industry (DTI) Sec. Ramon Lopez and Bohol Acting Vice Gov. VenzencioB. Arcamo. (Photo by Richard Madelo, Presidential Photo)'
 dated: 0ct 22 - 28, 2017
+archive: true
 ---
 
 Bohol: RP’s most business-friendly province – PCCI

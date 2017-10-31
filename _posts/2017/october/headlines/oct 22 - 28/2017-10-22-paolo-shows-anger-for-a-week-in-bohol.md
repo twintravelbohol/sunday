@@ -6,6 +6,7 @@ image: true
 hl-title: 'ROUGH SEAS.'
 hl-desc: 'Photo above shows a Lite Ferries vessel battling the rough seas bound for Tagbilaran City last Wednesday morning amid a harsh weather conditions. The vessel fortunately made it safely to its destination. (Photo by Peter Woo)'
 dated: 0ct 22 - 28, 2017
+archive: true
 ---
 
 What started to be a mere low pressure area last week turned out to become a severe typhoon and battered the seawaters around this island province bringing heavy rains, rough seas and strong winds.
