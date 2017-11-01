@@ -5,6 +5,7 @@ category: opinions
 image: true
 image-cat: 'the-agora'
 dated: 0ct 15 - 21, 2017
+archive: true
 ---
 
 When something goes wrong and it becomes widespread, people usually run to the government for help or for solution.  But what happens when government has no answer nor solution or even just an explanation that can be well appreciated, understood and accepted by the public?  Then it becomes really fishy and people might look for the answer or solution somewhere else.  That is the worst that can happen.

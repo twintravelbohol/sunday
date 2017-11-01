@@ -5,6 +5,7 @@ category: opinions
 image: true
 image-cat: 'res-ipsa-loquitur'
 dated: 0ct 15 - 21, 2017
+archive: true
 ---
 
 The SangguniangPanlalawigan of Bohol correctly went into work by investigating on the alleged cartel behind the fish trade in the province.

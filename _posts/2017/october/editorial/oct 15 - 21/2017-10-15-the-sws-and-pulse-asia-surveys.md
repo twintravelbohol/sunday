@@ -4,6 +4,7 @@ title: 'The SWS and Pulse Asia Surveys'
 image: true
 category: editorial
 dated: 0ct 15 - 21, 2017
+archive: true
 ---
 
 The SWS and Pulse Asia Surveys

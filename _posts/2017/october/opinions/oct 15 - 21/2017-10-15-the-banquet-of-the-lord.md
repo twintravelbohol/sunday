@@ -5,6 +5,7 @@ category: opinions
 image: true
 image-cat: 'sunday-reflection'
 dated: 0ct 15 - 21, 2017
+archive: true
 ---
 
 28th Sunday of the Year(cycle A)

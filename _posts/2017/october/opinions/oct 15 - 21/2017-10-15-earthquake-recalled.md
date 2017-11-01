@@ -5,6 +5,7 @@ category: opinions
 image: true
 image-cat: 'sundry'
 dated: 0ct 15 - 21, 2017
+archive: true
 ---
 
 Today is the 4th anniversary of the 7.2 M earthquake which devastated half of Bohol last Oct. 15, 2013 with Sagbayan town as its epicenter. The total of personal and infrastructure damage is mind boggling. Four year since, the physical evidence of the earthquake have mostly healed and lost in time, but the trauma remains silently embedded at the psyche of every victim.
