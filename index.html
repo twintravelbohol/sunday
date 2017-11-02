@@ -24,6 +24,25 @@ title: Bohol Sunday News
    <section class='main-content-container'>
       <section class='articles'>
          <h4 class='box-title'>News right now</h4>
+         {% for post in site.post %}
+         {% if post.category == 'others' %}
+         <article class='article'>
+            <figure class='img'>
+               <img src="/assets/img{% if post.image %}{% if post.image-cat %}/{{ post.image-cat }}{% else %}{{ post.url }}{% endif %}.jpg{% else %}/no-prev.jpg{% endif %}">
+            </figure>
+            <div class='text'>
+               <a class='title' href='{{ site.url }}{{ post.url }}'>{{ post.title }}</a>
+               <div class='extra'>
+                  <a class='cat' href='{{ site.url }}/{{ post.category }}'>{{ post.category | replace: '-', ' ' }}</a>
+                  <span class='author'>{{ site.data.settings.title }}</span>
+                  <span class='date'>{{ post.dated }}</span>
+               </div>
+               <p class='description'>{% if post.hl-desc %}{% if post.hl-title %}{{ post.hl-title }} {{ post.hl-desc | truncate:75 }}{% else %}{{ post.hl-desc | truncate:110 }}{% endif %}{{ post.hl-desc | truncate:50 }}{% else %}{{ post.content | truncate:110 | remove: "<p>" | remove: "</p>" }}{% endif %}</p>
+               <a class='read-more' href='{{ site.url }}{{ post.url }}'>Read more</a>
+            </div>
+         </article>
+         {% endif %}
+         {% endfor %}
          {% for post in site.posts limit:20 %}
          {% if post.archive != true %}
          {% if post.category != 'headlines' %}
