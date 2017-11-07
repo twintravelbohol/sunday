@@ -6,6 +6,7 @@ image: true
 hl-title: 'LATEST CRAZE IN TOWN.'
 hl-desc: 'Bohol Vintage Cars which formally opened yesterday in Laya, Baclayon town displays a wide array of old car models as early as in the 50s and 60s acquired from all over the country. It also want to be part of the tourist destination in Bohol.'
 dated: 0ct 29 - Nov 04, 2017
+archive: true
 ---
 
 BACLAYON. - Car enthusiasts gathered in Barangay Laya the whole day yesterday to join the opening of the latest craze in town, the Bohol Vintage Cars.

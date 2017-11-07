@@ -4,6 +4,7 @@ title: 'Sikatuna Day every Dec. 5'
 category: headlines
 image: true
 dated: 0ct 29 - Nov 04, 2017
+archive: true
 ---
 
 A bill seeking to declare Dec. 5 every year as Datu Sikatuna Day in Sikatuna town has been approved by the House committee on revision of laws, the office of Cong. Rene L. Relampagos said yesterday.

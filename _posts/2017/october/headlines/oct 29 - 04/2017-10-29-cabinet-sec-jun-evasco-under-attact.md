@@ -4,6 +4,7 @@ title: 'Cabinet Sec. Jun Evasco under attact'
 category: headlines
 image: true
 dated: 0ct 29 - Nov 04, 2017
+archive: true
 ---
 
 True to the analysis published here last Sunday, the camp of Cabinet Sec. Leoncio B. Evasco Jr. decried last Friday an organized attack from a gubernatorial wannabe.

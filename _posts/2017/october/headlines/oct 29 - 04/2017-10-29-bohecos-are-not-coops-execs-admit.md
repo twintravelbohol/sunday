@@ -4,6 +4,7 @@ title: 'BOHECOs are not coops, execs admit'
 category: headlines
 image: true
 dated: 0ct 29 - Nov 04, 2017
+archive: true
 ---
 
 TUBIGON. – Officials of the electric cooperative here admitted last week that Bohol Electric Cooperatives (BOHECO) are not cooperatives.

@@ -4,6 +4,7 @@ title: 'Chatto, Damalerio, 3 others ordered to return P2.437 M'
 category: headlines
 image: true
 dated: 0ct 29 - Nov 04, 2017
+archive: true
 ---
 
 The Commission on Audit has directed Bohol Gov. Edgar M. Chatto, former Vice Gov. Concepcion O, Lim, suspended Provincial Administrator AeDamalerio and twoother provincial officials to return the P2.437-million provincial fund spent on “personalized” calendars in 2011, reports gathered by the Bohol Sunday News last week said.

@@ -4,6 +4,7 @@ title: 'Bohol marks 121st CPG birth anniversary on Sat.'
 category: headlines
 image: true
 dated: 0ct 29 - Nov 04, 2017
+archive: true
 ---
 
 Bohol will commemorate the 121st birth anniversary of its most illustrious son, Carlos Polestico Garcia, on Nov. 4, Saturday.
