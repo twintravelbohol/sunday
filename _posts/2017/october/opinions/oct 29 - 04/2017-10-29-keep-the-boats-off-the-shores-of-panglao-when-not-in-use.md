@@ -5,6 +5,7 @@ category: opinions
 image: true
 image-cat: 'the-agora'
 dated: 0ct 29 - Nov 04, 2017
+archive: true
 ---
 
 Keep the boats off the shores of Panglao when not in use

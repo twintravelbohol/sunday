@@ -5,6 +5,7 @@ category: opinions
 image: true
 image-cat: 'word-on-fire'
 dated: 0ct 29 - Nov 04, 2017
+archive: true
 ---
 
 Sometimes we blame God 

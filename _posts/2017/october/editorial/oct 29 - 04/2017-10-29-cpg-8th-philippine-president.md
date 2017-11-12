@@ -4,6 +4,7 @@ title: 'CPG: 8th Philippine President'
 image: true
 category: editorial
 dated: 0ct 29 - Nov 04, 2017
+archive: true
 ---
 
 We have to set aside our piece this week and give way to the 121st natal day of the late Pres. Carlos P. Garcia, Bohol’s most illustrious son this coming Saturday.

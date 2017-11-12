@@ -5,6 +5,7 @@ category: opinions
 image: true
 image-cat: 'sunday-reflection'
 dated: 0ct 29 - Nov 04, 2017
+archive: true
 ---
 
 The foundation of all laws

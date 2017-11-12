@@ -5,6 +5,7 @@ category: opinions
 image: true
 image-cat: 'sundry'
 dated: 0ct 29 - Nov 04, 2017
+archive: true
 ---
 
 A retribution?
